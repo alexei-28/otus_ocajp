@@ -1,2 +1,2 @@
 # OTUS - OCAJP
-OTUS - Oracle Certified Java SE Programmer 1 (OCAJP), Java 8
+OTUS's course: Oracle Certified Java SE 8 Programmer I, 1Z0-808 (OCAJP)

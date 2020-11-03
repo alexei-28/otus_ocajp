@@ -1,0 +1,10 @@
+Тест к занятию «Создание и запуск Java-приложений. Сравнение характеристик Java»
+
+https://docs.google.com/forms/d/e/1FAIpQLScJIB21Dp37XxsHVMuiebsrkphEHG6Kh26YIxyCu3XkyLtnGQ/viewform
+
+Кол-во вопросов: 
+Мин. кол-во % для прохождения теста: 65%
+
+| Attempt | Start date       | End date         | Score, % |
+|---------+------------------+------------------+----------|
+|       1 | 03.11.2020 19:00 | 03.11.2020 20:00 |          |

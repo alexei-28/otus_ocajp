@@ -1,10 +1,11 @@
 ДЗ#8: Применение операторов, включая переопределение приоритета. Унарные операторы  
 
- https://forms.gle/NnhFSiDGJBbMgicj9
+Test:  https://forms.gle/NnhFSiDGJBbMgicj9
 
-| # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result  |
-|---+------------------+------------------+-----------------------------+-----------------+---------+---------|
-| 1 | 25.12.2020 23:00 | 06.12.2020 23:15 |                         1.5 | 10/13           |      76 | Success |
+| # | Start date       | End date          | Average time response (min) | Correct answers | Percent | Result  |
+|---+------------------+-------------------+-----------------------------+-----------------+---------+---------|
+| 1 | 26.12.2020 12:15 | 26.12.2020  12:35 |                           2 | 7/10            |      70 | Success |
+
 
 
 

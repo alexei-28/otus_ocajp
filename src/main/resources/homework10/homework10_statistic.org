@@ -2,6 +2,8 @@
 
 Test:  https://forms.gle/Mt81k2PVNAJDF6vX6
 
+Мин. кол-во % для прохождения теста: 65%
+
 | # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result  |
 |---+------------------+------------------+-----------------------------+-----------------+---------+---------|
 | 1 | 27.12.2020 19:35 | 27.12.2020 20:55 |                         1.6 | 35/50           |     70% | Success |

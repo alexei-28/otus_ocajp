@@ -48,5 +48,8 @@ public class Main {
         StringBuilder sb7 = new StringBuilder("12345");
         sb7.replace(2,4,"6");
         System.out.println(sb7); // 1265
+
+        String testString = new String(new StringBuilder("hello from sb"));
+        System.out.println("testString = " + testString);
     }
 }

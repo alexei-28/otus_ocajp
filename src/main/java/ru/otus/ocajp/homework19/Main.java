@@ -11,10 +11,13 @@ public class Main {
             int arrArray[2]; // compile error
             String[2] strArray; // compile error
             int[2] mArr[3]; // compile error
+            float[] lion = new float[]; // compile error (dimension required)
         */
+        int[] arrTest = new int[]{1, 2, 3};
         double[] arrTest1 = new double[2];
         double arrTest2[] = new double[5];
         double arrTest3[] = {};
+
         System.out.println("arrTest1 = " + Arrays.toString(arrTest1) // [0.0, 0.0]
                 + ", arrTest2 = " + Arrays.toString(arrTest2) // [0.0, 0.0, 0.0, 0.0, 0.0]
                 + ", arrTest3 = " + Arrays.toString(arrTest3)); // []

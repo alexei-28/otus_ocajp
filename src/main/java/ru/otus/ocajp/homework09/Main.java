@@ -1,5 +1,6 @@
 package ru.otus.ocajp.homework09;
 
+// ДЗ: Арифметические операторы. Операторы присваивания
 public class Main {
 
     public static void main(String... args) {

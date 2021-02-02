@@ -1,5 +1,6 @@
 package ru.otus.ocajp.homework08;
 
+// ДЗ: Применение операторов, включая переопределение приоритета. Унарные операторы
 public class Main {
 
     public static void main(String... args) {

@@ -1,5 +1,6 @@
 package ru.otus.ocajp.homework16;
 
+// ДЗ: Сравнение циклических конструкций. Команда return. Недоступный код
 public class Main {
     public static void main(String... args) {
         System.out.println("Homework#16!\nJDK: " + System.getProperty("java.version"));

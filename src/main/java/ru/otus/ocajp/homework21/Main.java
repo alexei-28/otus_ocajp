@@ -5,6 +5,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 import java.util.Date;
 
+// ДЗ: Создание и манипуляция календарными датами
 public class Main {
     public static void main(String args[]) {
         System.out.println("Homework#21.\nJDK: " + System.getProperty("java.version"));

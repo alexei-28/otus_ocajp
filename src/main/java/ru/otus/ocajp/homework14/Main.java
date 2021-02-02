@@ -1,6 +1,6 @@
 package ru.otus.ocajp.homework14;
 
-// Создание и применение циклов while, do-while, for, for-each
+// ДЗ: Создание и применение циклов while, do-while, for, for-each
 public class Main {
     public static void main(String... args) {
         System.out.println("Homework#14!\nJDK: " + System.getProperty("java.version"));

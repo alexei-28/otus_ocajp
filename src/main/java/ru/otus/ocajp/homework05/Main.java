@@ -1,5 +1,6 @@
 package ru.otus.ocajp.homework05;
 
+// ДЗ: Определение областей действия переменных
 public class Main {
     int x = 5;
 

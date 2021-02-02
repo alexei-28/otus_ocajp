@@ -1,5 +1,6 @@
 package ru.otus.ocajp.homework18;
 
+// ДЗ: Манипуляция данными посредством класса StringBuilder и его методов
 public class Main {
     public static void main(String... args) {
         /*-

@@ -2,6 +2,7 @@ package ru.otus.ocajp.homework19;
 
 import java.util.Arrays;
 
+// ДЗ: Объявление, инстанциация и применение одномерных и многомерных массивов
 public class Main {
     public static void main(String args[]) {
         System.out.println("Homework#19.\nJDK: " + System.getProperty("java.version"));

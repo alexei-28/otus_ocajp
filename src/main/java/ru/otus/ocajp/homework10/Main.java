@@ -1,5 +1,6 @@
 package ru.otus.ocajp.homework10;
 
+//ДЗ: Конкатенация. Операторы (не-)равенства и сравнения
 public class Main {
 
     public static void main(String... args) {

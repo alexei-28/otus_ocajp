@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+// ДЗ: Объявление и применение коллекций ArrayList заданного типа
 public class Main {
     public static void main(String args[]) {
         System.out.println("Homework#20.\nJDK: " + System.getProperty("java.version"));

@@ -1,5 +1,7 @@
 package ru.otus.ocajp.homework17;
 
+// ДЗ: Создание и манипуляция String-объектами.
+// Проверка идентичности строковых и др.объектов с использованием оператора == и метода equals()
 public class Main {
     public static void main(String... args) {
         System.out.println("Homework#17!\nJDK: " + System.getProperty("java.version"));

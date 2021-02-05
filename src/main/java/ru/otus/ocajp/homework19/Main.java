@@ -77,5 +77,11 @@ public class Main {
         String[] nums = new String[] {"1", "9", "10"};
         Arrays.sort(nums);
         System.out.println(Arrays.toString(nums)); // [1, 10, 9]  without quotes
+
+        String[] testArray = new String[0];
+        System.out.println("testArray = " + Arrays.toString(testArray)); // []
+
+        String[] testArray1 = new String[1];
+        System.out.println("testArray1 = " + Arrays.toString(testArray1)); // [null]
     }
 }

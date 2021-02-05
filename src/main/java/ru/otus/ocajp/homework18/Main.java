@@ -4,9 +4,12 @@ package ru.otus.ocajp.homework18;
 public class Main {
     public static void main(String... args) {
         /*-
-            StringBuilder is a mutable sequence of characters.
+            StringBuilder is a mutable sequence of characters (implement CharSequence).
+            StringBuilder is a final class. As result you can't extend it.
+            StringBuilder methods return a reference to the SAME object so you can chain method calls.
             StringBuilder is used when we want to modify Java strings in-place.
             StringBuffer is a thread-safe equivalent similar of StringBuilder.
+            StringBuffer is a final class. As result you can't extend it.
          */
         System.out.println("Homework#18!\nJDK: " + System.getProperty("java.version"));
         StringBuilder sb = new StringBuilder(); // default capacity = 16
@@ -43,7 +46,7 @@ public class Main {
         sb6.insert(2, "privet");// "Heprivetllo"
         sb6.insert(5,'Z'); // "HepriZvetllo"
         sb6.replace(2,100, "WOW"); // "HeWOW" // startIndex, endIndex, str
-        sb6.delete(1,3); // "HOW" //startIndex, endIndex
+        sb6.delete(1,3); // "HOW" //startIndex, endIndex -> "eW"
         System.out.println(sb6);
 
         StringBuilder sb7 = new StringBuilder("12345");
@@ -52,5 +55,14 @@ public class Main {
 
         String testString = new String(new StringBuilder("hello from sb"));
         System.out.println("testString = " + testString);
+
+        // The "sb8" reference doesn't exist until after the chained calls complete.
+        // Just because it happens to be on a separate line doesn't change when the reference is created.
+        // Compile error. Variable "sb8" might not have been initialized.
+        // StringBuilder sb8 = new StringBuilder("radical").insert(sb8.length(), "robots");
+
+        StringBuilder sb9 = new StringBuilder("radical ").insert(7, "robots");
+        System.out.println("sb9 = '" + sb9 + "', length = " + sb9.length()); // "radicalrobots ", 14
+        System.out.println("charAt = " + sb9.charAt(1));
     }
 }

@@ -2,6 +2,10 @@ package ru.otus.ocajp.webinar04;
 
 public class Test {
 
+    public interface MyInterface {
+        public void someMethod();
+    }
+
     public Test() {
 
     }

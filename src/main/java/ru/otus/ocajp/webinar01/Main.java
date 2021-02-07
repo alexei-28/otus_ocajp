@@ -7,8 +7,8 @@ package ru.otus.ocajp.webinar01;
     Тест к занятию «Создание и запуск Java-приложений. Сравнение характеристик Java»
  */
 public class Main {
-
+    // When running a Java program, you pass just the name of the class without the .class extension
     public static void main(String... args) {
-        System.out.println("Webinar#01");
+        System.out.println("Webinar#01.\nJDK: " + System.getProperty("java.version"));
     }
 }

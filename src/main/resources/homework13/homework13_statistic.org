@@ -6,7 +6,7 @@ Test: https://forms.gle/icyxFKPeSb4Do5s68
 
 | # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result  |
 |---+------------------+------------------+-----------------------------+-----------------+---------+---------|
-| 1 | 04.01.2021 17:20 | 04.01.2021 17:40 |                         1.5 | 9/13            |      69 | Success |
+| 1 | 04.01.2021 17:20 | 04.01.2021 17:40 |                         1.5 | 9/13            |      69 | Pass    |
 
 
 

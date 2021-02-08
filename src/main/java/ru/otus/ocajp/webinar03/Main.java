@@ -7,7 +7,7 @@ package ru.otus.ocajp.webinar03;
 public class Main {
 
     public static void main(String... args) {
-        System.out.println("Webinar#03");
+        System.out.println("Webinar#03.\nJDK: " + System.getProperty("java.version"));
 
         //float f1 = 9.02; // compile error, because 9.02 is DOUBLE (by default)
 

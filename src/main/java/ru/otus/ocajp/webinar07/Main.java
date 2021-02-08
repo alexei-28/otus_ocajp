@@ -4,7 +4,7 @@ package ru.otus.ocajp.webinar07;
 public class Main {
 
     public static void main(String... args) {
-        System.out.println("Webinar#07");
+        System.out.println("Webinar#07.\nJDK: " + System.getProperty("java.version"));
     }
 
 }

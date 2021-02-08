@@ -64,6 +64,7 @@ public class Main {
         Vehicle obj = car;
         /*-
         Can call static method by class name or by instance reference (obj).
+        Как только есть объект класса, на нём можно вызвать его методы.
         E.g.
             Vehicle obj = new Vehicle();
             Vehicle.getSomeStaticMethod();
@@ -74,6 +75,8 @@ public class Main {
                 + "\nobj.getRegNumber() = " + obj.getRegNumber()
                 + "\ncar.getRegNumber() = " + car.getRegNumber()
         );
+        obj = null;
+        System.out.println("obj_null_getStaticModelName = " + obj.getStaticModelName()); // same as "Vehicle.getModelName()"
         /*-
         Result print:
 

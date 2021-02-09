@@ -1,5 +1,7 @@
 package ru.otus.ocajp.webinar09;
 
+import static java.lang.Float.NaN;
+
 // Арифметические операторы. Операторы присваивания
 public class Main {
 
@@ -31,6 +33,19 @@ public class Main {
         int a = 2;
         a*= a + 4; // a = (int) (a * (a + 4)) 
         System.out.println("a = " + a); // 12
+
+        // Returns true if the specified number is a Not-a-Number (NaN) value, false otherwise.
+        boolean isNotANumber = Float.isNaN(10.0f);
+        System.out.println("isNotANumber(10.0f) = " + isNotANumber); // false
+
+        short height = 4, weight = 1;
+        /*-
+            Even though both height and weight are cast to byte,
+            the multiplication operator automatically promotes them to "int",
+            resulting in an attempt to store an int in a short variable
+        */
+        //short zebra = (byte) height * (byte) weight; // compile error. Promotion to "int"
+        //short zebra = (short) ((short) height * (short) weight); // ok
     }
 
 }

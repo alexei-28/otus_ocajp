@@ -40,7 +40,7 @@ public class Main {
         int[] array = {4, 8, 16};
         int item = 1;
         array[++item] = --item;
-        System.out.println(array[0] + array[1] + array[2]);
+        System.out.println(array[0] + array[1] + array[2]); // 13
     }
 
 }

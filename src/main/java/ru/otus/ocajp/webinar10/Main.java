@@ -31,6 +31,23 @@ public class Main {
         int test = 1;
         test += test++ - --test;
         System.out.println("test = " + test);
+
+        String str = "";
+        // str = null + 'a'; // compile error. Operator '+' can not be applied to 'null', 'a'
+        // str += null + 'a'; // compile error. Operator '+' can not be applied to 'null', 'a'
+        str = null + "test";
+        System.out.println("str = " + str); // nulltest
+
+        str += (String) null + 'a';
+        System.out.println("str = " + str); // nulla
+
+        String str2 = "";
+        str2 += 'a';
+        str2 = str2 + null + 'a';
+        System.out.println("str2 = " + str2); // anulla
+
+        str2 = "hello" + 'a';
+        System.out.println("str2_last = " + str2); // helloa
     }
 
 }

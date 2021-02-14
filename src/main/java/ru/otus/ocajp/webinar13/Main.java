@@ -67,5 +67,23 @@ public class Main {
                 System.out.println("color_red ");
             }
         }
+
+        color = 21;
+        int test  = 4;
+        final Integer testInteger = 10;
+        // switch не может принять boolean
+        switch (color) {
+            default:
+            case 1: case 2: System.out.println("hello");
+            // Each case statement must have the keyword case
+            // case 1: 2: System.out.println("hello"); // compile error,  not a statement
+            //case 2: continue; // compile error
+            case 10: System.out.println("hello_10");
+            // case test : System.out.println("test"); // compile error: constant expression required
+
+            // Классы-оболочки(testInteger) не считаются константами времени компиляции, даже когда их помечают модификатором final.
+            // case testInteger: System.out.println("hello_integer"); // compile error: constant expression required
+        }
+        // print: "hello" and "hello_10"
     }
 }

@@ -6,6 +6,7 @@ public class Child extends Parent {
     Child(int c) {
         this(c = 1, c = 2);
         myMethod(c = 10, c = 20);
+        myMethod(11,21);
     }
 
     public Child(int a, int b) {

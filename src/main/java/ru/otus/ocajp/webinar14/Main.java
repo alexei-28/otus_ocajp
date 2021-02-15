@@ -38,5 +38,21 @@ public class Main {
         for (; j-- > 0; ) {
             System.out.println("j"); // print "j" 3 times
         }
+
+        int[] nums = {10, 20, 30};
+        for (int currentIetm : nums) {
+            System.out.println("currentItem(int) = " + currentIetm);
+        }
+
+        Integer[] numsInteger = {100, 200, 300};
+        for (int currentItem : numsInteger) {
+            System.out.println("CurrentItem(Integer) = " + currentItem);
+        }
+
+        // infinity loop
+        for (int index=0; index<10;) {
+            index = index++; // The expression inside the loop increments i but then assigns i the old value = 0
+            System.out.println("Infinity loop, index = " + index);
+        }
     }
 }

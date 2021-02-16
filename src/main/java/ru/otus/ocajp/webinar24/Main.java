@@ -8,7 +8,7 @@ public class Main {
     private int total = 10;
     private static int count = 2;
 
-    // Любые финальный переменные нужно инициализировать сразу либо в инитерах (static блоки)
+    // Любые финальный переменные нужно инициализировать сразу или в инитерах (static блоки)
     //private static final int one; // compile error. Variable one not initialized in the default constructor
     private static final int two = 2;
 

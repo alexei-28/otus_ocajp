@@ -5,18 +5,16 @@ package ru.otus.ocajp.webinar27;
 /*-
     Класс нельзя расширить если:
     - класс final
-    - у класса есть private конструктор БЕЗ аргументов (MyParent)
+    - у класса есть private конструктор(user defined) БЕЗ аргументов (e.g. MyParent)
 
     Важно!
     Компилятор всегда пытается вставить безаргументный вызов super() в любой пригодный для этого конструктор.
     А «пригодным» является только тот конструктор, где нет своего собственного вызова super() или this()
     с любым количеством аргументов.
 
-    Конструктор без аргументов, который создается по умолчанию компилятором называется:
+    Конструктор без аргументов, который создается по умолчанию компилятором называется
     "default constructor" или "compiler default constructor".
-
-    Конструктор без аргументов, который создается программистом называется:
-    "user defined constructor".
+    Конструктор без аргументов, который создается программистом называется "user defined constructor".
 
     A default constructor can't coexist with other constructors.
     A default constructor is automatically created by the Java compiler if the user doesn't
@@ -52,5 +50,9 @@ public class Main {
         System.out.println(new ClassC().name); // B C A
 
         new Child(10);
+
+        new MyChild3();
+
+        new B("Test");
     }
 }

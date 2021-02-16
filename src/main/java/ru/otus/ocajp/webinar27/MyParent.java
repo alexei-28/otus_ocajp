@@ -4,6 +4,7 @@ package ru.otus.ocajp.webinar27;
 //protected class MyClass { // compile error. modifier protected not allowed here
 public class MyParent {
 
+    // User defined constructor
     private MyParent() {
 
     }

@@ -1,4 +1,4 @@
-package ru.otus.ocajp.homework23.pond.duck;
+package ru.otus.ocajp.webinar23.pond.duck;
 
 public class FutherDuck {
     private String noise = "quack";

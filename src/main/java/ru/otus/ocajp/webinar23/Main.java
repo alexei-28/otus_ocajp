@@ -16,6 +16,8 @@ public class Main {
         test(10); // [10]
         test(10, 20); // [10,20]
         test(new int[]{15, 25, 35});// [15, 25, 35]
+
+        _();
     }
 
     private static void print(Object... obj) {
@@ -24,6 +26,14 @@ public class Main {
 
     private static void test(int... args) {
         System.out.println("args = " + Arrays.toString(args));
+    }
+
+    // incorrect method name. Java identifier expected
+    // private static void 2walk() { }
+
+    // Work only in <= Java 8
+    private static void _() {
+        System.out.println("call method with name underscore");
     }
 
 }

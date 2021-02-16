@@ -6,8 +6,8 @@ public class Swan extends Bird {
 
     public void swim() {
         // Swam не в том пакете, но наследник -> OK
-        floatInWatcher(); // subclass(Swan) access to superclass(Bird) - OK
-        System.out.println(text); // subclass(Swan) access to superclass(Bird) - OK
+        floatInWatcher(); // subclass(Swan) has access to protected method "floatInWatcher()" of superclass(Bird) - OK
+        System.out.println(text); // subclass(Swan) has access to protected property "text" of superclass(Bird) - OK
     }
 
     public void helpOtherSwanSwim() {
@@ -19,11 +19,11 @@ public class Swan extends Bird {
 
     // Класс(Bird) инстанцированный вне своего пакета и хочет обратиться к своему же protected члену.
     // Bird и не наследник(Bird) и не в том же пакете -> compile error
+    // Для protected доступа важно из какого класса(Swan) вызывается protected метод "floatInWatcher()"
     public void helpOtherBirdSwim() {
         Bird otherBird = new Bird();
-        // Для protected доступа важно из какого класса(Swan) вызывается метод floatInWatcher()
-        // otherBird.floatInWatcher(); // compile error. No access to protected method from another package
-        // System.out.println(otherBird.text); // compile error. No access to protected property from another package
+        // otherBird.floatInWatcher(); // compile error. No access to protected method "floatInWatcher()" from another package
+        // System.out.println(otherBird.text); // compile error. No access to protected property "text" from another package
     }
 
 }

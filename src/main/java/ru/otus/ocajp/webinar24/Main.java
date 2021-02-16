@@ -30,6 +30,12 @@ public class Main {
         String result = mainClass.someNonStaticMethod();
         System.out.println("call_someNonStaticMethod_result = " + result);
 
+        // Also can use null ref to call static method
+        mainClass = null;
+        // Java replace mainClass.doIt() by Main.doIt()
+        mainClass.doIt(100);
+        System.out.println("Success call static method from by null ref");
+
         doIt(34); // 34
         Integer intRef = 34;
         doIt(intRef); // 34
@@ -58,9 +64,9 @@ public class Main {
         speak(name);
         System.out.println("name = " + name); // Webby
 
-        // Значение переменной "name" не меняется потому что класс String - это immutable кдасс
+        // Значение переменной "name" не меняется потому что класс String - это immutable кдасс.
         // Передается копия ссылки (адрес в памяти).
-        // Итого 2 ссылки будут ссылаться на одит и тот же объект.
+        // Итого 2 ссылки будут ссылаться на один и тот же объект.
         speak2(name);
         System.out.println("name two = " + name); // Webby
 
@@ -72,11 +78,11 @@ public class Main {
 
         // Побочный эффект
         // Переменные "nameSb" и "sbInMethod" указывают на ОДИН и тот же объект.
-        // Так как класс StringBuilder - это mutable класс , то меняется значение переменной "nameSb".
+        // Так как класс StringBuilder - это mutable класс, то меняется значение переменной "nameSb".
         StringBuilder nameSb = new StringBuilder();
         // Передается копия ссылки (адрес в памяти).
         // Итого 2 ссылки будут ссылаться на одит и тот же объект.
-        speak(nameSb);
+        speak(nameSb); // sbInMethod.append("Hello");
         System.out.println("nameSb = " + nameSb); // Hello
 
         // Немутируемость через возврат защищенной копии
@@ -98,7 +104,7 @@ public class Main {
     }
 
     private static void doIt(long longParam) {
-        System.out.println("longParam = " + longParam);
+        System.out.println("doIt: longParam = " + longParam);
     }
 
     private static void doItWithShort(short shortParam) {

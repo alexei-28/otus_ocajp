@@ -6,7 +6,7 @@ public class BadCygnet {
 
     public void makeNoise() {
         MotherDuck duck = new MotherDuck();
-        //duck.quack();// default access -> not compile
-        //System.out.println(duck.noise); // default access -> not compile
+        //duck.quack();// method "quack" has default access -> not compile
+        //System.out.println(duck.noise); // property "noise" has default access -> not compile
     }
 }

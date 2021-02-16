@@ -6,12 +6,12 @@ public class Goose extends Bird {
 
     public void helpGooseSwim() {
         Goose otherGoose = new Goose();
-        otherGoose.floatInWatcher(); // success access to protected method from superclass
-        System.out.println(otherGoose.text); // success access to protected property from superclass
+        otherGoose.floatInWatcher(); // success access to protected method "floatInWatcher()" from superclass
+        System.out.println(otherGoose.text); // success access to protected property "text" from superclass
     }
 
     // Класс(Bird) инстанцированный вне своего пакета и хочет обратиться к своему же protected члену.
-    // Bird и не наследник и не в том же пакете -> compile error
+    // Bird и не наследник(самого себя) и не в том же пакете -> compile error
     public void helpOtherGooseSwim() {
         // Bird и не наследник(Bird) и не в том же пакете -> compile error
         Bird otherBird = new Goose(); // Компилятор видит левую часть(Bird)

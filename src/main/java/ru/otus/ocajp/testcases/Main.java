@@ -52,6 +52,7 @@ public class Main {
         //System.out.println("singleton1 = " + singleton1);
 
         // Create Singleton by Enum
+        System.out.println();
         SingletonByEnum singletonByEnum = SingletonByEnum.INSTANCE;
         System.out.println("singletonByEnum = " + singletonByEnum);
         singletonByEnum.doWork();

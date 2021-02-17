@@ -1,9 +1,15 @@
 package ru.otus.ocajp.webinar16;
 
+import java.util.Arrays;
+import java.util.List;
+
 // Сравнение циклических конструкций. Команда return. Недоступный код
 public class Main {
     public static void main(String... args) {
         System.out.println("Webinar#16!\nJDK: " + System.getProperty("java.version"));
+
+        List<String> list = Arrays.asList("args", "bb");
+        System.out.println("list = " + list);
 
         /*-
         int x = 0;

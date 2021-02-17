@@ -32,7 +32,8 @@ public class Main {
             RABBIT:
             for (int j = 0; j < 4; j++) { // always true
                 System.out.println("i = " + i + ", j = " + j);
-                continue BUNNY;
+                continue BUNNY; // continue with outer for loop
+                // break BUNNY; // finish outer for loop
             }
             System.out.println("after RABBIT(inner)"); // never print
         }

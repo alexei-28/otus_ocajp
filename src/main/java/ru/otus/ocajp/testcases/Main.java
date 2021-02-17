@@ -12,7 +12,7 @@ public class Main {
 
         StringBuilder s1 = new StringBuilder("s1");
         StringBuilder s2 = new StringBuilder("s2");
-        StringBuilder s3 = work(s1,s2);
+        StringBuilder s3 = work(s1, s2);
         System.out.println("s1 = " + s1); // s1 = s1
         System.out.println("s2 = " + s2); // s2 = s2b
         System.out.println("s3 = " + s3); // s3 = a
@@ -24,6 +24,14 @@ public class Main {
         date.plusYears(3);
         //Not change because LocalDate is immutable class AND return value is ignored.
         System.out.println(date); // 2018-04-30
+
+        String race = "";
+        loop:
+        break loop; // OK
+        race += "x";
+        System.out.println("race = " + race);
+        // While the label is still present, it no longer points to a loop.
+        // break loop; // compile error, undefined label: loop
     }
 
     public static StringBuilder work(StringBuilder a, StringBuilder b) {

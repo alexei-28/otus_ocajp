@@ -25,6 +25,17 @@ public class Main {
         //Not change because LocalDate is immutable class AND return value is ignored.
         System.out.println(date); // 2018-04-30
 
+        label1: if (s1.toString().equals("s1")) {
+            System.out.println("label1 in if");
+            break label1;
+        }
+
+        /*-
+        for: if(true) { // incorrect label name
+            System.out.println("label_for");
+        }
+         */
+
         String race = "";
         loop:
         break loop; // OK
@@ -32,6 +43,18 @@ public class Main {
         System.out.println("race = " + race);
         // While the label is still present, it no longer points to a loop.
         // break loop; // compile error, undefined label: loop
+
+        Singleton singleton = Singleton.getInstance();
+        System.out.println("singleton = " + singleton);
+
+        // Понятно, что конструктор надо сделать приватным, иначе можно сделать так:
+        //Singleton singleton1 = new Singleton();
+        //System.out.println("singleton1 = " + singleton1);
+
+        // Create Singleton by Enum
+        SingletonByEnum singletonByEnum = SingletonByEnum.INSTANCE;
+        System.out.println("singletonByEnum = " + singletonByEnum);
+        singletonByEnum.doWork();
     }
 
     public static StringBuilder work(StringBuilder a, StringBuilder b) {

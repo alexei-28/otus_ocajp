@@ -12,5 +12,10 @@ public abstract class Bird {
         // Because Bird.fly() is private method -> print "Bird is flying".
         // If Bird.fly() not private method -> print "Pelican is flying".
         bird.fly();
+        Bird.testStaticMethod();
+    }
+
+    protected static void testStaticMethod() {
+        System.out.println("Bird testStaticMethod");
     }
 }

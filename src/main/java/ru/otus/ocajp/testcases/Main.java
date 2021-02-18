@@ -7,6 +7,12 @@ import java.util.List;
 
 public class Main {
 
+    public static StringBuilder work(StringBuilder a, StringBuilder b) {
+        a = new StringBuilder("a");
+        b.append("b");
+        return a;
+    }
+
     public final static void main(String... args) {
         System.out.println("Hello, Test cases!\nJDK: " + System.getProperty("java.version"));
 
@@ -57,13 +63,6 @@ public class Main {
         System.out.println("singletonByEnum = " + singletonByEnum);
         singletonByEnum.doWork();
     }
-
-    public static StringBuilder work(StringBuilder a, StringBuilder b) {
-        a = new StringBuilder("a");
-        b.append("b");
-        return a;
-    }
-
 
     private static void test() {
         List<Integer> ages = new ArrayList<>();

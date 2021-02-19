@@ -1,12 +1,11 @@
 ДЗ#5: ДЗ: Определение областей действия переменных 
 
 Тест#1 по теме сегодняшнего занятия: https://forms.gle/Tzc1rz6MqUDktXkt9
-Тест#2 по всему пройденному блоку Java Basics: https://forms.gle/9Wow7RRygXyx5fFU6
 
 
 Кол-во вопросов:  
 Мин. кол-во % для прохождения теста: 65%
-
+Average time response: <= 2 minutes 
 
 Test#1
 | # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
@@ -16,8 +15,9 @@ Test#1
 | 3 | 07.02.2021 19:50 | 07.02.2020 20:00 |                           2 | 5/5             |     100 | Pass   |
 
 
-
+Тест#2 по всему пройденному блоку Java Basics: https://forms.gle/9Wow7RRygXyx5fFU6
 Test#2 (Module 1)
+
 | # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
 |---+------------------+------------------+-----------------------------+-----------------+---------+--------|
 | 1 | 29.11.2020 23:10 | 29.11.2020 00:10 |                         1.2 | 38/50           |      76 | Pass   |

@@ -4,7 +4,7 @@ Test url: https://forms.gle/64ChbhJoLboVKyi26
 
 Кол-во вопросов:  
 Мин. кол-во % для прохождения теста: 65%
-
+Average time response: <= 2 minutes 
 
 | # | Start date        | End date         | Average time response (min) | Correct answers | Percent | Result |
 |---+-------------------+------------------+-----------------------------+-----------------+---------+--------|

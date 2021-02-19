@@ -1,0 +1,19 @@
+ДЗ27: Разработка кода, демонстрирующего полиморфизм, включая переопределение.
+
+Test#1: https://forms.gle/Ye5pEo81uiT4dTHs9
+
+Мин. кол-во % для прохождения теста: 65%
+Average time response: <= 2 minutes
+
+| # | Start date | End date | Average time response (min) | Correct answers | Percent | Result |
+|---+------------+----------+-----------------------------+-----------------+---------+--------|
+| 1 |            |          |                             |                 |         |        |
+
+
+
+
+Test#2: https://forms.gle/DPNTFBw64BSPrHj8A
+
+| # | Start date | End date | Average time response (min) | Correct answers | Percent | Result |
+|---+------------+----------+-----------------------------+-----------------+---------+--------|
+| 1 |            |          |                             |                 |         |        |

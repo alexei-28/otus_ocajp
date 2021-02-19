@@ -3,6 +3,7 @@
 Test: https://forms.gle/4nwS6Lj3DH7qcZoR9
 
 Мин. кол-во % для прохождения теста: 65%
+Average time response: <= 2 minutes
 
 | # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
 |---+------------------+------------------+-----------------------------+-----------------+---------+--------|

@@ -1,12 +1,10 @@
 ДЗ#7: Чтение и запись объектных полей. Классы-оболочки 
 
 Тест#1 https://forms.gle/A8HUUp469EsNZuBNA
-Тест#2 https://forms.gle/KzGjKJcAB7xHMDXx9
-
 
 Кол-во вопросов:  
 Мин. кол-во % для прохождения теста: 65%
- 
+Average time response: <= 2 minutes 
 
 Test#1
 | # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
@@ -18,8 +16,9 @@ Test#1
 
 
 
-
+Тест#2 https://forms.gle/KzGjKJcAB7xHMDXx9
 Test#2 (Модуль 2. Working with Java Data Types)
+
 | # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
 |---+------------------+------------------+-----------------------------+-----------------+---------+--------|
 | 1 | 08.02.2021 15:25 | 08.02.2021 16:00 |                         0.7 | 41/50           |      82 | Pass   |

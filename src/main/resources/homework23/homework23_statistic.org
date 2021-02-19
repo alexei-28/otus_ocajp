@@ -4,6 +4,7 @@ Test: Тест по всему пройденному блоку Working with Se
       https://forms.gle/a7UhKDKvqAqghYys5
 
 Мин. кол-во % для прохождения теста: 65%
+Average time response: <= 2 minutes
 
 | # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
 |---+------------------+------------------+-----------------------------+-----------------+---------+--------|

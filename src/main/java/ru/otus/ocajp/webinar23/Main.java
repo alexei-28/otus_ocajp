@@ -17,6 +17,9 @@ public class Main {
         test(10, 20); // [10,20]
         test(new int[]{15, 25, 35});// [15, 25, 35]
 
+        _testUnderScore();
+
+        // Work only in <= Java 8
         _();
     }
 
@@ -30,6 +33,10 @@ public class Main {
 
     // incorrect method name. Java identifier expected
     // private static void 2walk() { }
+
+    private static void _testUnderScore() {
+        System.out.println("call method with name star by underscore");
+    }
 
     // Work only in <= Java 8
     private static void _() {

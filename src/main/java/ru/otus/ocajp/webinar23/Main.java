@@ -20,7 +20,7 @@ public class Main {
         _testUnderScore();
 
         // Work only in <= Java 8
-        _();
+        //_();
     }
 
     private static void print(Object... obj) {
@@ -39,8 +39,11 @@ public class Main {
     }
 
     // Work only in <= Java 8
+    /*-
     private static void _() {
         System.out.println("call method with name underscore");
     }
+
+     */
 
 }

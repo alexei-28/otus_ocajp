@@ -6,6 +6,9 @@ public class Base {
     Base() {
         // Call override method "Extension.add()"
         add(1);
+
+        // Compile error
+        // static String test = "Hello";
     }
 
     // Этот метод НИКОГДА не вызовется

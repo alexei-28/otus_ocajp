@@ -2,9 +2,8 @@
 
 Test url: https://forms.gle/wTzWcCQEgsasWc8v6
 
-Кол-во вопросов: 29 
 Мин. кол-во % для прохождения теста: 65%
-Average time response: <= 2 minutes 
+Максимальное время ответа на один вопрос: 2 мин.
 
 | # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
 |---+------------------+------------------+-----------------------------+-----------------+---------+--------|

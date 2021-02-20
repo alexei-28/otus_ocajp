@@ -3,17 +3,18 @@
 Test#1: https://forms.gle/Ye5pEo81uiT4dTHs9
 
 Мин. кол-во % для прохождения теста: 65%
-Average time response: <= 2 minutes
+Максимальное время ответа на один вопрос: 2 мин. 
 
-| # | Start date | End date | Average time response (min) | Correct answers | Percent | Result |
-|---+------------+----------+-----------------------------+-----------------+---------+--------|
-| 1 |            |          |                             |                 |         |        |
-
+| # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
+|---+------------------+------------------+-----------------------------+-----------------+---------+--------|
+| 1 | 20.02.2021 12:05 | 20.02.2021 13:25 |                        2.42 | 19/33           |      57 | Fail   |
+|   |                  |                  |                             |                 |         |        |
 
 
 
 Test#2: https://forms.gle/DPNTFBw64BSPrHj8A
+Весь модуль 
 
-| # | Start date | End date | Average time response (min) | Correct answers | Percent | Result |
-|---+------------+----------+-----------------------------+-----------------+---------+--------|
-| 1 |            |          |                             |                 |         |        |
+| # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
+|---+------------------+------------------+-----------------------------+-----------------+---------+--------|
+| 1 | 20.02.2021 18:40 | 20.02.2021 20:00 |                         1.6 | 34/50           |      68 | Pass   |

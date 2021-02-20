@@ -8,4 +8,8 @@ public class C extends B {
     int someMethod() {
         return someVariable;
     }
+
+    public static String someStaticMethod() {
+        return "C.someStaticMethod";
+    }
 }

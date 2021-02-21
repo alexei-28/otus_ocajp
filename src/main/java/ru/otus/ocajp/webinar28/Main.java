@@ -6,13 +6,13 @@ package ru.otus.ocajp.webinar28;
 
      - Переменные НЕ переопределяются (overriding).
      - Методы не final, не static и не private могут переопределяться (overriding).
-       Такие методы называются виртуальными.
+       Такие методы называются виртуальными/полиморфными.
  */
 public class Main {
     // compile error. Final variable must be init
     //private final Object testObj;
 
-    // static final variables must be set when they are declared or in a static initialization block.
+    // "static final" variables must be set when they are declared or in a static initialization block.
     // compile error
     // private final static String testFinalStatic;
 
@@ -42,6 +42,9 @@ public class Main {
 
         //test(2);
         System.out.println("testStatic = " + testStatic); // testStatic = null
+
+        // compile error: 'void' type not allowed here
+        // System.out.println(new Main().nested());
     }
 
     /*-
@@ -58,4 +61,12 @@ public class Main {
         }
     }
      */
+
+    public void nested() {
+        nested(2, true);
+    }
+
+    private int nested(int i, boolean b) {
+        return 10;
+    }
 }

@@ -5,7 +5,7 @@ package ru.otus.ocajp.webinar27;
 /*-
     Класс нельзя расширить если:
     - класс final
-    - у класса есть private конструктор(user defined) БЕЗ аргументов (e.g. MyParent)
+    - у класса есть private конструктор(user defined) БЕЗ аргументов (e.g. private MyParent(){})
 
     Важно!
     Компилятор всегда пытается вставить безаргументный вызов super() в любой пригодный для этого конструктор.
@@ -28,9 +28,9 @@ public class Main {
         System.out.println("Webinar#27.\nJDK: " + System.getProperty("java.version"));
 
         new MyChild2();
-
-        // very important test
+        // Very important test:
         /*-
+            Example: ClassC.name
             Reference к статическому полю запускает инициализацию только в том классе(ClassA) или интерфейсе
             в котором декларируется это поле ("name"). И не важно через что мы стучимся до этого поля:
             - через subclass
@@ -38,21 +38,32 @@ public class Main {
             - через класс, который имплементирует интерфейс
 
             Т.е:
-            Мы пытаемся достучаться до статического поля "name", через класс "ClaccC".
-            "ClaccC" - это "внук" класса "ClassA".
+            Мы пытаемся достучаться до статического поля "name", через класс "ClassC".
+            "ClassC" - это "внук" класса "ClassA".
             Это поле "name" проинициализированно в классе "ClassA".
-            Т.е "name" выполняется/инициализируется и больше НЕ меняется ТОЛЬКО в классе "ClassA".
+            Т.е "name" инициализируется ТОЛЬКО в классе "ClassA" и больше НЕ меняется.
 
-         */
+        */
+        System.out.println("first case");
+        // In webinar#27 (01:42:00)
+        // Другой случай: new ClassC().name
+        // 1. Нам нужен объект класса ClassC
+        // 2. Чтобы был объект класса ClassC нужно, чтобы был класс ClassC
+        // 3. Чтобы был класс ClassC нужно, чтобы был класс ClassB
+        // 4. Чтобы был класс ClassB нужно, чтобы был класс ClassA
+        //System.out.println(new ClassC().name); // Hello from B C A
+        // Execute ONLY "new ClassC().name" OR only "ClassC.name". Not both  (comment one or another method)
+
+        System.out.println("second case");
         System.out.println(ClassC.name); // Hello from A
 
-        // Другой случай
-        System.out.println(new ClassC().name); // B C A
-
+        System.out.println("third case");
         new Child(10);
 
+        System.out.println("fourth case");
         new MyChild3();
 
+        System.out.println("five case");
         new B("Test");
     }
 }

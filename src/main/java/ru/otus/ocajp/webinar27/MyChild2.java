@@ -8,7 +8,8 @@ package ru.otus.ocajp.webinar27;
 public class MyChild2 extends MyParent {
 
     public MyChild2() {
+        // If comment super(10) then compile error: There is no default constructor available in 'MyParent'
         super(10);
-        System.out.println("MyChild2 constructor with param");
+        System.out.println("MyChild2 constructor without param");
     }
 }

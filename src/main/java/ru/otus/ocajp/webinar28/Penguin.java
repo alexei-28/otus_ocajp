@@ -8,7 +8,7 @@ public class Penguin {
     }
 
     public void printInfo() {
-        System.out.println("printInfo, getHeight = " + this.getHeight());
+        System.out.println("Penguin.printInfo, getHeight = " + this.getHeight());
 
         // compile error because in class Object not exist method getHeight()
         //System.out.println("printInfo, getHeight = " + super.getHeight());

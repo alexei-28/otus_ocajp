@@ -8,5 +8,15 @@ public class Person {
         this.name = name;
         this.age = age;
     }
-
 }
+
+
+/*- Compile error: Class 'PersonPublic' is public, should be declared in a file named 'PersonPublic.java'
+public class PersonPublic {
+}
+ */
+
+// OK because access modifier of class is default(private package)
+class PersonDefault {
+}
+

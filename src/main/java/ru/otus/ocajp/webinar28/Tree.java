@@ -9,11 +9,11 @@ public abstract class Tree {
 
     public static void main(String args[]) {
         Tree tree = new Oak();// Tree - reftype, Oak - actype
-        tree.grow(); // print "Tree is growing" because "grow()" is private method and it is can not be override.
+        tree.grow(); // print "Tree is growing" -> because "grow()" is private method and it is can not be override.
 
         // tree.grow(); // compile error if comment method "grow()"
-        // Методы ВСЕГДА берутся из reftype.
-        // Потом они подменяются на actype если методы переопределены.
-        // На этапе компиляции смотрим на reftype (то что слева).
+        // Методы ВСЕГДА берутся из reftype(то что слева).
+        // Потом они подменяются на actype(то что справа) если методы переопределены.
+        // На этапе компиляции смотрим на reftype.
     }
 }

@@ -14,18 +14,21 @@ public class Main {
         //List<> list2 = new ArrayList<String>(); // compile error. Illegal start of type
 
         // ArrayList String-ов - это НЕ подтип ArrayList Object-ов
-        // List<Object> list3 = new ArrayList<String>(); // compile error.Incompatible types: ArrayList<String> cannot be converted to List<Object>
+        // compile error.Incompatible types: ArrayList<String> cannot be converted to List<Object>
+        // List<Object> list3 = new ArrayList<String>();
 
         // Массив String-ов - это подтип массива Object-ов
         Object[] list4 = new String[4];
-        System.out.println("list4 = " + Arrays.toString(list4)); // []
+        System.out.println("list4 = " + Arrays.toString(list4)); // [null, null, null, null]
 
-        // Convert from array to list
+        // Convert from array to list.
         // Not ArrayList. It is special FIXED size List. Can't add/remove items.
         // Under the hood "listTest" and "arrayTest" is reference to the SAME one array.
         // As result when change "listTest" then change "arrayTest". And visa versa.
         String[] arrayTest = {"first", "second"};
-        List<String> listFixSize = Arrays.asList(arrayTest);
+        List<String> listFixSize = Arrays.asList(arrayTest); // special FIXED size List
+        // listFixSize.add("some_item"); // error: java.lang.UnsupportedOperationException
+        // listFixSize.remove(1); // error: java.lang.UnsupportedOperationException
         System.out.println(listFixSize.size()); // 2
         listFixSize.set(1, "test"); // "set" return previous item ("second")
         System.out.println("listFixSize = " + listFixSize); // [first, test]
@@ -42,7 +45,9 @@ public class Main {
         list2.add("test1");
         list2.add("test2");
         Object[] objectArray = list2.toArray(); // create INDEPENDENT array. No connection with "list"
+        System.out.println("objectArray = " + Arrays.toString(objectArray)); // [test1, test2]
         String[] stringArray = list2.toArray(new String[0]); // create INDEPENDENT array. No connection with "list"
+        System.out.println("stringArray = " + Arrays.toString(stringArray)); // [test1, test2]
         list2.clear();
         System.out.println(list2.size()); // 0
         System.out.println(objectArray.length); // 2
@@ -55,6 +60,6 @@ public class Main {
         System.out.println("array = " + Arrays.toString(array));
 
         List baloons = new ArrayList<>();
-        //List<> baloons2 = new ArrayList(); // compile error. Illegal start of type
+        //List<> baloons2 = new ArrayList(); // compile error. Identifier expected, Illegal start of type
     }
 }

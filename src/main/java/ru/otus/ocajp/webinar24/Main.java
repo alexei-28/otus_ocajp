@@ -12,11 +12,11 @@ Attention!
 */
 
 public class Main {
-    public double a;
+    public double doubleVariable;
     private int total = 10;
     private static int count = 2;
 
-    // Любые финальный переменные нужно инициализировать сразу или в инитерах (static блоки)
+    // Любые финальный статичные переменные нужно инициализировать сразу или в инитерах (static блоки)
     //private static final int one; // compile error. Variable one not initialized in the default constructor
     private static final int two = 2;
 
@@ -30,24 +30,27 @@ public class Main {
     public static void main(String args[]) {
         System.out.println("Webinar#24.\nJDK: " + System.getProperty("java.version"));
 
-        new Main().a = 10;// OK
+        new Main().doubleVariable = 10;// OK
         Main mainClass = new Main();
-        mainClass.a = 20; // OK
+        mainClass.doubleVariable = 20; // OK
         // Из static метода нельзя вызвать НЕ static метод.
         // НО...из static метода можно создать объект И вызвать НЕ static метод этого объекта.
         String result = mainClass.someNonStaticMethod();
         System.out.println("call_someNonStaticMethod_result = " + result);
 
-        // Also can use null ref to call static method
+        // Also can use null reference to call static method
         mainClass = null;
         // Java replace mainClass.doIt() by Main.doIt()
+        System.out.println("call static method via null reference");
         mainClass.doIt(100);
-        System.out.println("Success call static method from by null ref");
+        System.out.println("Success call static method from by null reference");
 
         doIt(34); // 34
         Integer intRef = 34;
+        System.out.println("do_it_pass_Integer_param");
         doIt(intRef); // 34
-        Long longRef = 34l;
+        Long longRef = 34L;
+        System.out.println("do_it_pass_Long_param");
         doIt(longRef); // 34
 
         // С переменными работает

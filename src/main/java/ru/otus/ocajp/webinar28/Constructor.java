@@ -6,7 +6,7 @@ public class Constructor {
         bogo(new Extension());
     }
 
-    private static void bogo(Base  b) {
+    private static void bogo(Base b) {
         b.add(8);
         b.print(); // print "22" because method "Base.add()" NEVER call.
     }

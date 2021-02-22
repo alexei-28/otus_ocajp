@@ -4,18 +4,32 @@ import java.util.Arrays;
 
 // Создание методов, которые принимают аргументы и возвращают значения. Применение модификаторов доступ
 public class Main {
+
+    private static void printObjectVarargs(Object... obj) {
+        System.out.println(obj[0]);
+    }
+
     public static void main(String args[]) {
         System.out.println("Webinar#23.\nJDK: " + System.getProperty("java.version"));
-        print("9", "8", "7"); // print "9"
-        print(new int[]{9, 8, 7}); // print "[I@6bc7c054"
-        // print(new Integer[] {9,8,7}); // warning: non-varargs call of varargs method with inexact argument type for last parameter;
-        // print(new String[] {"9", "8", "7"}); // warning - non-varargs call of varargs method with inexact argument type for last parameter;
-        print(new Object[]{"9", "8", "7"}); // print "9"
 
-        test(); // [] you can omit method arguments
-        test(10); // [10]
-        test(10, 20); // [10,20]
-        test(new int[]{15, 25, 35});// [15, 25, 35]
+        System.out.println("first case");
+        printObjectVarargs("9", "8", "7"); // print "9"
+        printObjectVarargs(new int[]{9, 8, 7}); // print "[I@6bc7c054"
+
+        // compile error: non-varargs call of varargs method with inexact argument type for last parameter
+        // cast to Object for a varargs call
+        // printObjectVarargs(new Integer[] {9,8,7}); ;
+
+        // compile error - non-varargs call of varargs method with inexact argument type for last parameter
+        // cast to Object for a varargs call
+        // printObjectVarargs(new String[] {"9", "8", "7"}); ;
+        printObjectVarargs(new Object[]{"9", "8", "7"}); // print "9"
+
+        System.out.println("second case");
+        printIntVarargs(); // [] you can omit method arguments
+        printIntVarargs(10); // [10]
+        printIntVarargs(10, 20); // [10,20]
+        printIntVarargs(new int[]{15, 25, 35});// [15, 25, 35]
 
         _testUnderScore();
 
@@ -23,12 +37,8 @@ public class Main {
         //_();
     }
 
-    private static void print(Object... obj) {
-        System.out.println(obj[0]);
-    }
-
-    private static void test(int... args) {
-        System.out.println("args = " + Arrays.toString(args));
+    private static void printIntVarargs(int... args) {
+        System.out.println("printIntVarargs_args = " + Arrays.toString(args));
     }
 
     // incorrect method name. Java identifier expected

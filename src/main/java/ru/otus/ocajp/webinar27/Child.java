@@ -16,7 +16,7 @@ public class Child extends Parent {
     }
 
     private void myMethod(int a, int b) {
-        System.out.println("myMethod: a = " + a + ", b = " + b);
+        System.out.println("Child: myMethod: a = " + a + ", b = " + b);
     }
 
 }

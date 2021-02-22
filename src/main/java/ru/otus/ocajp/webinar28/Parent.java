@@ -2,7 +2,7 @@ package ru.otus.ocajp.webinar28;
 
 public class Parent {
     // Variables can only be hidden, not overridden via inheritance.
-    public int length = 2;
+    public String text = "parent.variable";
     public final int testFinal = 20;
 
     protected static int someStaticMethod() {

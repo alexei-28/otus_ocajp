@@ -17,4 +17,5 @@ public interface MyFunctionInterface {
 
     @Override
     public boolean equals(Object obj);
+
 }

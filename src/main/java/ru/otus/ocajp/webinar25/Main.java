@@ -23,6 +23,9 @@ public class Main {
 
     If no applicable method is found during these phases, then ambiguity occurs(compile error).
 
+    Расширение до более широкого примитивного типа - это более приоритетная операция чем autoboxing.
+    Varargs имеет самый низкий проиоритет.
+
     Example:
     Method "System.out.println()" is overloaded:
         print(char[] c)
@@ -38,7 +41,7 @@ public class Main {
 
         System.out.println("---");
 
-        MyParent classA = new Child(); // Компилятор видит левую часть(MyParent)
+        MyParent classA = new MyChild(); // Компилятор видит левую часть(MyParent)
         classA.printText();// print "Child_printText" -> call method "printText()" of child class(Child)
 
         // This output is due to the fact that "int" is more specific than "double".

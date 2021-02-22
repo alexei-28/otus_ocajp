@@ -9,8 +9,8 @@ public class MyParent {
 
     }
 
-    public MyParent(int test) {
-        System.out.println("MyParent constructor with param");
+    public MyParent(int param) {
+        System.out.println("MyParent constructor with param = " + param);
     }
 
     private class MyInnerClass {

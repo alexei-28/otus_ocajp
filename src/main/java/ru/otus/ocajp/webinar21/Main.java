@@ -6,6 +6,10 @@ import java.time.format.FormatStyle;
 import java.util.Date;
 
 // Создание и манипуляция календарными датами
+
+/*-
+    LocalDate,LocalTime,LocalDateTime are immutable classes.
+*/
 public class Main {
     public static void main(String args[]) {
         System.out.println("Webinar#21.\nJDK: " + System.getProperty("java.version"));
@@ -48,7 +52,6 @@ public class Main {
         Period period3 = period1.withMonths(-7);
         // isNegative() - Checks if any of the three units(y,M,d) of this period are negative.
         System.out.println("period3 = " + period3 + ", isNegative = " + period3.isNegative()); // P2Y-7M8D, isNegative = true
-
 
         Period period15D = period1.withDays(15);
         System.out.println("period15D = " + period15D); // P2Y4M15D

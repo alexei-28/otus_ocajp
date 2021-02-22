@@ -3,7 +3,9 @@ package ru.otus.ocajp.webinar28;
 public class Child2 extends Parent2 {
     String str = " Hi! ";
 
+    // overriding method
     void greet() {
+        //System.out.print("Child2.greet() ");
         System.out.print(str);
     }
 

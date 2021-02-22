@@ -2,8 +2,8 @@ package ru.otus.ocajp.webinar28;
 
 // The use of inheritance in this code defines Child "is-a" Parent relationship.
 public class Child extends Parent {
-    // Hiding variable
-    public int length = 5;
+    // Variables can only be hidden, not overridden via inheritance.
+    public String text = "child.variable";
 
     // Static methods must have the same signature (the name and method parameters must match).
     // Method "someStaticMethod" must be static because this method in parent is static method.
@@ -44,15 +44,16 @@ public class Child extends Parent {
         Child child = new Child();
         // Parent is a reftype (reference type)
         Parent parent = new Child();
-        System.out.println("child.length = " + child.length); // 5
+        System.out.println("child.text = " + child.text); // print -> child.variable
 
         // переменные зависят от reftype (Parent)
-        System.out.println("parent.length = " + parent.length); // 2
+        System.out.println("parent.text = " + parent.text); // print -> parent.variable
 
         // child.testFinal = 10; // compile error cannot assign a value to final variable testFinal
-
-        Child.someStaticMethod();
-        Child.someStaticMethod2();
+        System.out.println("first");
+        Child.someStaticMethod(); // print -> Child.someStaticMethod
+        System.out.println("second");
+        Child.someStaticMethod2(); // print -> Parent.someStaticMethod2
 
         StringBuilder stringBuilder = new StringBuilder("Hello");
         // Not need use toString() for pretty print

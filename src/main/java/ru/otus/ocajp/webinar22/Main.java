@@ -27,6 +27,10 @@ public class Main {
 
         System.out.println("case third");
         check(listInteger, list -> list.isEmpty());
+
+        // Common for a Predicate to have a generic type, it is not required.
+        Predicate dash =  c -> c.equals("test");
+        System.out.println("dashPredicate = " + dash.test("hello")); // false
     }
 
     private static void check(List list, Predicate<List> predicate) {

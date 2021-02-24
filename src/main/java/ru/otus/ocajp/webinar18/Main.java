@@ -1,5 +1,7 @@
 package ru.otus.ocajp.webinar18;
 
+import java.util.function.Predicate;
+
 // Манипуляция данными посредством класса StringBuilder и его методов
 public class Main {
     public static void main(String... args) {
@@ -64,5 +66,15 @@ public class Main {
         StringBuilder sb9 = new StringBuilder("radical ").insert(7, "robots");
         System.out.println("sb9 = '" + sb9 + "', length = " + sb9.length()); // "radicalrobots ", 14
         System.out.println("charAt = " + sb9.charAt(1));
+
+        StringBuilder sb10 = new StringBuilder("123");
+        sb10.insert(3, "456");
+        // sb10.insert(4, "456"); // StringIndexOutOfBoundsException: String index out of range: 4
+        System.out.println("sb10 = " + sb10 + ", length = "  + sb10.length()); // 123456, 6
+
+        // Can pass StringBuilder as param to String
+        String testString2 = new String(sb10);
+        System.out.println("testString2 = " + testString2); // 123456
+
     }
 }

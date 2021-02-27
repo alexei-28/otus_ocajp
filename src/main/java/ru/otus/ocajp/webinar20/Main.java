@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.List;
 
 // Объявление и применение коллекций ArrayList заданного типа
+
+// An array does not override equals() and so uses object equality.
+// ArrayList does override equals() and defines it as the same elements in the same order.
 public class Main {
     public static void main(String args[]) {
         System.out.println("Webinar#20.\nJDK: " + System.getProperty("java.version"));
@@ -61,5 +64,27 @@ public class Main {
 
         List baloons = new ArrayList<>();
         //List<> baloons2 = new ArrayList(); // compile error. Identifier expected, Illegal start of type
+
+        List listWithoutType = new ArrayList<>();
+
+        // Since the left side does not define a generic type, the compiler will treat this as List<Object>,
+        // and items of "someList" will have a data type of Object.
+        List someList = new ArrayList<Integer>();
+
+        doIt();
     }
+
+    private static void doIt() {
+        List<StringBuilder> listOne = new ArrayList<>();
+        listOne.add(new StringBuilder("Anna"));
+        listOne.add(new StringBuilder("Ada"));
+        listOne.add(new StringBuilder("Bob"));
+
+        List<StringBuilder> listTwo = new ArrayList<>(listOne);
+        listOne.add(null);
+        listTwo.get(1).reverse();
+
+        System.out.println("listOne = " + listOne); // [Anna, adA, Bob, null]
+    }
+
 }

@@ -62,19 +62,19 @@ public class Main {
         arr12[3] = c; // 99 (promotion)
         System.out.println("arr12 = " + Arrays.toString(arr12));
 
-        int[] arrTest10 = {1,2,3}; // [1, 2, 3]
+        int[] arrTest10 = {1, 2, 3}; // [1, 2, 3]
         int[][] arrTest20 = new int[1][3];
         for (int index = 0; index < arrTest20.length; index++) {
             for (int index2 = 0; index2 < arrTest20[index].length; index2++) {
                 arrTest20[index][index2] = 1;
             }
         }
-        System.out.println("arrTest10 = "+ Arrays.toString(arrTest10));
+        System.out.println("arrTest10 = " + Arrays.toString(arrTest10));
         for (int[] ints : arrTest20) {
             System.out.println("arrTest10 = " + Arrays.toString(ints)); // [1, 1, 1]
         }
 
-        String[] nums = new String[] {"1", "9", "10"};
+        String[] nums = new String[]{"1", "9", "10"};
         Arrays.sort(nums);
         System.out.println(Arrays.toString(nums)); // [1, 10, 9]  without quotes
 
@@ -83,5 +83,44 @@ public class Main {
 
         String[] testArray1 = new String[1];
         System.out.println("testArray1 = " + Arrays.toString(testArray1)); // [null]
+
+        // Don’t specify any size. Although it is legal to leave out the size for later
+        // dimensions of a multidimensional array, the first one is required.
+        // The size of the array is never specified in the declaration of an array reference.
+        // The size of an array is always associated with the array instance (on the right-hand side),
+        // not the array reference (on the left-hand side).
+        // int[][] java = new int[][]; // compile error: array dimension missing
+
+        int[][] java = new int[2][]; // ok
+
+        // int[2][] java2 = new int[][]; // compile error, ']' expected
+
+        // int arr[] = new int[2] {1, 2}; // compile error, ';' exptected
+
+        // int arr[4] = {1,2,3,4}; // compile error, ']' expected
+        int[] arr = new int[4];
+        System.out.println("arr = " + Arrays.toString(arr)); // [0, 0, 0, 0]
+
+        // Хотя квадратные скобки действительно можно ставить как после типа,
+        // так и после имени переменной, в декларации массива запрещено указывать число элементов.
+        // boolean arrTest[3]; // compile error
+
+        boolean[] arrTest21 = new boolean[2];
+        System.out.println("arrTest21 = " + Arrays.toString(arrTest21)); // false, false]
+
+        String bear[] = new String[] {};
+        System.out.println("bear = " + Arrays.toString(bear) + ", length = " + bear.length); // bear = [], length = 0
+
+        // When using an array initializer, you are not allowed to specify the size separately.
+        // The size is inferred from the number of elements listed.
+        // String bear2[] = new String[0] {}; // compile error
+
+        String[][] matrix = new String[1][2];
+        //matrix[1][1] = "Second"; // ArrayIndexOfBoundException
+
+        String[][] listening = new String[][] {{"Book"}, {"Game", "22.12"}};
+        System.out.println(listening.length); // 2
+        System.out.println(listening[0].length); // 1
+
     }
 }

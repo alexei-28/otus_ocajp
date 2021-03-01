@@ -89,5 +89,9 @@ public class Main {
 
         sbTest3.setLength(2);
         System.out.println("sbTest3 (after) = " + sbTest3); // He
+        if ("Integer.class" instanceof String) {
+
+        }
+        //if (null instanceof null) {} //  comp error: illegal start of type
     }
 }

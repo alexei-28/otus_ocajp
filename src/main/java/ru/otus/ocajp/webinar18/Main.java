@@ -1,5 +1,6 @@
 package ru.otus.ocajp.webinar18;
 
+import javax.print.DocFlavor;
 import java.util.function.Predicate;
 
 // Манипуляция данными посредством класса StringBuilder и его методов
@@ -76,5 +77,17 @@ public class Main {
         String testString2 = new String(sb10);
         System.out.println("testString2 = " + testString2); // 123456
 
+        System.out.println("equals vs ==");
+        StringBuilder sbTest1 = new StringBuilder("Hello");
+        StringBuilder sbTest2 = new StringBuilder("Hello");
+        System.out.println(sbTest1 == sbTest2); // false
+        // Method "equals()" not overriding in StringBuilder
+        System.out.println(sbTest1.equals(sbTest2)); // false
+
+        StringBuilder sbTest3 = new StringBuilder(sbTest1);
+        System.out.println("sbTest3 = " + sbTest3); // Hello
+
+        sbTest3.setLength(2);
+        System.out.println("sbTest3 (after) = " + sbTest3); // He
     }
 }

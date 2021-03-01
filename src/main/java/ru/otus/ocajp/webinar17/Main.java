@@ -7,11 +7,13 @@ public class Main {
         System.out.println("Webinar#17!\nJDK: " + System.getProperty("java.version"));
 
         // Методы класса String создают новые объекты только если были изменения.
-        String str = "Hello";
+        String str =  new String("Hello");
         System.out.println(str == str.replace("Z", "z")); // true
         System.out.println(str == str.trim());// true
         System.out.println(str == str.substring(0));// true
         // 3 раза "true" так как не было изменений, а значит новый String объект НЕ создается.
+
+        System.out.println("substring(0) = " + str.substring(0)); // Hello
 
         String[] str2 = new String[2]; // array with size 2 and all items are null
 
@@ -21,5 +23,12 @@ public class Main {
         System.out.println(c);
 
         // char c2 = 66535; // compile error
+
+        StringBuilder sb = new StringBuilder("hello");
+        String testStr = new String(sb);
+        System.out.println("testStr = " + testStr); // hello
+
+        testStr = testStr.replace("he", new StringBuilder("PR"));
+        System.out.println("after_replace_testStr = " + testStr); // PRllo
     }
 }

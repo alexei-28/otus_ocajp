@@ -11,7 +11,7 @@ abstract class MyAbstractClass implements MyInterfaceA {
 
     // Abstract class can contain constructor
     public MyAbstractClass() {
-        System.out.println("MyAbstractClass: consctructor");
+        System.out.println("MyAbstractClass: constructor");
     }
 
     abstract protected List someAbstractMethod(int age);

@@ -1,0 +1,18 @@
+ДЗ#29: Необходимость в приведении типов. Пространства имён
+
+Test#1: https://forms.gle/LsjFWSZAKdZk5zxb8
+
+Мин. кол-во % для прохождения теста: 65%
+Максимальное время ответа на один вопрос: 2 мин. 
+
+| # | Start date | End date | Average time response (min) | Correct answers | Percent | Result |
+|---+------------+----------+-----------------------------+-----------------+---------+--------|
+| 1 |            |          |                             |                 |         |        |
+
+
+
+Test#2(весь модуль): https://forms.gle/M1aKsLE13Cd5HESW9
+
+| # | Start date | End date | Average time response (min) | Correct answers | Percent | Result |
+|---+------------+----------+-----------------------------+-----------------+---------+--------|
+| 1 |            |          |                             |                 |         |        |

@@ -24,7 +24,7 @@ public class Main {
         }
     }
 
-    public static void main(String arg[]) {
+    public static void main(java.lang.String arg[]) {
         System.out.println("Interesting cases.\nJDK: " + System.getProperty("java.version"));
 
         System.out.println(Values.A); // print "123staticA"
@@ -48,6 +48,8 @@ public class Main {
         // The pig variable is then assigned this value, and the increment operation is discarded.
         pig = pig++;
         System.out.println("pig = " + pig); // 4
+
+        new ru.otus.ocajp.interesting_cases.String();
     }
 
     // Result -> execute infinity.

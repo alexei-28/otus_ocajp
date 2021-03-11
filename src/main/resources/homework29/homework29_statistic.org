@@ -5,14 +5,18 @@ Test#1: https://forms.gle/LsjFWSZAKdZk5zxb8
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
 
-| # | Start date | End date | Average time response (min) | Correct answers | Percent | Result |
-|---+------------+----------+-----------------------------+-----------------+---------+--------|
-| 1 |            |          |                             |                 |         |        |
+| # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
+|---+------------------+------------------+-----------------------------+-----------------+---------+--------|
+| 1 | 10.03.2021 10:50 | 10.03.2021 11:25 |                         2.7 | 9/13            |      69 | Pass   |
+| 2 | 11.03.2021 14:50 | 11.03.2021 15:10 |                         1.5 | 11/13           |      84 | Pass   |
 
+
+https://docs.google.com/forms/d/e/1FAIpQLSdpvmLxb4uishrpAd1MyI_mX6qQBm71GsONyK20mhjKi-bI0w/viewscore?viewscore=AE0zAgDCuwcDleQ2edn2CGAXOxCP9uYyiqVSpzq_waUZBQ9gTl_Y-6bXHhhGryh6HG3tyK4
 
 
 Test#2(весь модуль): https://forms.gle/M1aKsLE13Cd5HESW9
 
-| # | Start date | End date | Average time response (min) | Correct answers | Percent | Result |
-|---+------------+----------+-----------------------------+-----------------+---------+--------|
-| 1 |            |          |                             |                 |         |        |
+| # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
+|---+------------------+------------------+-----------------------------+-----------------+---------+--------|
+| 1 | 10.03.2021 18:10 | 10.03.2021 19:35 |                         1.7 | 35/50           |      70 | Pass   |
+| 2 | 11.03.2021 15:45 | 11.03.2021 16:45 |                         1.2 | 44/50           |      88 | Pass   |

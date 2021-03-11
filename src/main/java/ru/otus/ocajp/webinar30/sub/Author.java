@@ -20,10 +20,11 @@ public class Author extends Programmer {
         в сигнатуре(throws) метода может:
         - указывать такой же, как и в родительском методе, checked исключение
         - указывать более узкий checked исключений
-        - не указывать checked исключение
+        - не указывать исключение(overridden method is allowed to throw no exceptions at all)
+        - It is also allowed to throw NEW unchecked exceptions (e.g. IllegalArgumentException).
     */
     @Override
-    public void testMethod() {
+    public void testMethod() throws IllegalArgumentException{
         System.out.println("Author testMethod");
     }
 }

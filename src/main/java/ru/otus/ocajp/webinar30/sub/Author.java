@@ -1,7 +1,10 @@
 package ru.otus.ocajp.webinar30.sub;
 
+<<<<<<< HEAD
 import java.io.FileNotFoundException;
 
+=======
+>>>>>>> homework#30
 public class Author extends Programmer {
     /*-
         The process() method is declared final in the Programmer class.

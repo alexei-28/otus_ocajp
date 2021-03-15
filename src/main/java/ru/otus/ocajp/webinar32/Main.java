@@ -13,7 +13,10 @@ public class Main {
             testthisStatic();
         } catch (FileNotFoundException ex) {
 
-        } finally {
+        } catch (Exception ex) {
+
+        }
+        finally {
 
         }
 

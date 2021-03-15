@@ -1,11 +1,28 @@
 package ru.otus.ocajp.webinar32;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Random;
 
 // Создание блока try-catch и влияние исключений на штатный алгоритм работы программы.
 public class Main {
+
+   static {
+        try {
+            testthisStatic();
+        } catch (FileNotFoundException ex) {
+
+        } finally {
+
+        }
+
+
+    }
+    public static void testthisStatic() throws FileNotFoundException {
+        System.out.println("testthisStatic");
+    }
+
     public static void main(String[] args) {
         System.out.println("Webinar#32.\nJDK: " + System.getProperty("java.version"));
         // You can fill array's item by call method.
@@ -30,7 +47,7 @@ public class Main {
         //notExecuteCodeAfterFinally();
         // notCompile();
         //testCatches();
-        tetsManyExcpetions();
+        // tetsManyExcpetions();
     }
 
     private static void tetsManyExcpetions() {

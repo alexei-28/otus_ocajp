@@ -2,6 +2,7 @@ package ru.otus.ocajp.webinar32;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -51,6 +52,7 @@ public class Main {
         // notCompile();
         //testCatches();
         // tetsManyExcpetions();
+        testMultiCatch();
     }
 
     private static void tetsManyExcpetions() {
@@ -177,8 +179,21 @@ public class Main {
         }
     }
 
-
     private static int getRandomInt() {
         return new Random().nextInt(100);
+    }
+
+    private static void testMultiCatch() {
+        try {
+            testThrows();
+        } catch (IOException | SQLException e) {
+
+        //} catch (IOException | FileNotFoundException e) { // compile error, because FileNotFoundException subclass of IOException
+            System.err.println("");
+        }
+    }
+
+    private static void testThrows() throws SQLException, IOException {
+        System.out.println("testThrows");
     }
 }

@@ -27,7 +27,7 @@ public class Main {
         System.out.println("testthisStatic");
     }
 
-    public static void main(String[] args) {
+    public static void main(String []args) {
         System.out.println("Webinar#32.\nJDK: " + System.getProperty("java.version"));
         // You can fill array's item by call method.
         int[] arrInt = {getRandomInt(), 2, getRandomInt()};

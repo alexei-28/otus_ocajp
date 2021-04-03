@@ -1,9 +1,15 @@
 package ru.otus.ocajp.webinar05;
 
-// Определение областей действия переменных
+/*-
+    Определение областей действия переменных
 
-// The "javac" command compiles into bytecode, which must be run in a Java virtual machine (JVM),
-// and is not native machine code, so III is false as well.
+    The "javac" command compiles into bytecode, which must be run in a Java virtual machine (JVM),
+    and is not native machine code, so III is false as well.
+
+    JVM not allows direct access to object in memory.
+    JVM manages the location of objects in memory that can change and is transparent to the Java application.
+    JVM does require an entry point method to begin executing the application.
+ */
 public class Main {
     int x = 5;
 

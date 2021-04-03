@@ -1,2 +1,3 @@
-rootProject.name = 'OTUS_OCAJP'
+rootProject.name = 'otus_ocajp'
+include 'examsnet'
 

@@ -1,6 +1,8 @@
 package ru.otus.ocajp.webinar08;
 
 // Применение операторов, включая переопределение приоритета. Унарные операторы
+
+// Unary operators have the highest order of precedence.
 public class Main {
     // Unary operators have the highest order of precedence.
     public static void main(String... args) {

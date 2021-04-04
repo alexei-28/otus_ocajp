@@ -15,12 +15,17 @@ public class Main {
 
     public static final void main(String... args) {
         System.out.println("Webinar#05.\nJDK: " + System.getProperty("java.version"));
-        //x++; // compile error: on-static variable x cannot be referenced from a static context
+        //x++; // compile error: on-static variable x cannot be referenced from a static context\
+        boolean test = false;
+        System.out.println("test_reverse = " + !test);
+        boolean test2 = (boolean) test;
+        System.out.println("test2 = " + test2);
     }
 
     // Локальные переменные нельзя затенять.
     private void myMethod(int w) {
         //int w = 10; // compile error: variable w is already defined in method myMethod(int)
         System.out.println(15); // ok
+
     }
 }

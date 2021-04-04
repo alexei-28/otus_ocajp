@@ -46,6 +46,16 @@ public class Main {
         */
         //short zebra = (byte) height * (byte) weight; // compile error. Promotion to "int"
         //short zebra = (short) ((short) height * (short) weight); // ok
+
+        byte apples = 5;
+        short oranges = 10;
+        // propagation to int
+        // short bananas = oranges - apples; // compile error: possible lossy conversion from int to short
+
+        long goat = 1;
+        // goat = 1.0; // compile error
+        goat += 1.0; // increment AND do implicit cast (compound operator applies casting automatically)
+        System.out.println("goat = " + goat); // 2
     }
 
 }

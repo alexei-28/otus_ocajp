@@ -18,10 +18,13 @@ public class Main {
         double[] arrTest1 = new double[2];
         double arrTest2[] = new double[5];
         double arrTest3[] = {};
+        int [][]arrTest5 = new int[0][4];
 
         System.out.println("arrTest1 = " + Arrays.toString(arrTest1) // [0.0, 0.0]
                 + ", arrTest2 = " + Arrays.toString(arrTest2) // [0.0, 0.0, 0.0, 0.0, 0.0]
-                + ", arrTest3 = " + Arrays.toString(arrTest3)); // []
+                + ", arrTest3 = " + Arrays.toString(arrTest3) // []
+                + ", arrTest5 = " + Arrays.toString(arrTest5) // []
+        );
 
         //int[] arr0 = new int[]; // error, must init array dimension
         int[][] arrMulti = new int[2][2];

@@ -1,8 +1,11 @@
 package ru.otus.ocajp.webinar09;
 
-import static java.lang.Float.NaN;
+/*-
+    Арифметические операторы. Операторы присваивания.
 
-// Арифметические операторы. Операторы присваивания
+    Unary operators have the highest order of precedence.
+    Unary operations are always executed before any surrounding binary or ternary operators.
+*/
 public class Main {
 
     public static void main(String... args) {
@@ -56,6 +59,26 @@ public class Main {
         // goat = 1.0; // compile error
         goat += 1.0; // increment AND do implicit cast (compound operator applies casting automatically)
         System.out.println("goat = " + goat); // 2
+
+        boolean test2 = (boolean) true;
+
+        testIncrement();
+    }
+
+    /*-
+        First, the expression ++i is evaluated, resulting in the value 2. Now the variable i
+        also has the value 2. The target of the assignment is now determined to be the
+        element array[2]. Evaluation of the right-hand expression, --i, results in the
+        value 1. The variable i now has the value 1. The value of the right-hand
+        expression, 1, is then assigned to the array element array[2], causing the array
+        contents to become {4, 8, 1}. The program computes and prints the sum of
+        these values, 13.
+    */
+    private static void testIncrement() {
+        int[] array = { 4, 8, 6};
+        int i = 1;
+        array[++i] = --i;
+        System.out.println(array[0] + array[1] + array[2]); // [4, 8, 1] -> 13
     }
 
 }

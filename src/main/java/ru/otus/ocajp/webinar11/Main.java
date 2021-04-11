@@ -3,6 +3,11 @@ package ru.otus.ocajp.webinar11;
 import java.math.BigDecimal;
 
 // Логические операторы. Порядок выполнения
+
+/*-
+    The return value of an assignment operation in the expression is the same as the
+    value of the newly assigned variable.
+ */
 public class Main {
     public static void main(String... args) {
         System.out.println("Webinar#11!\nJDK: " + System.getProperty("java.version"));

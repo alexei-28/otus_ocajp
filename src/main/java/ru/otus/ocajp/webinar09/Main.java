@@ -10,6 +10,16 @@ public class Main {
 
     public static void main(String... args) {
         System.out.println("Webinar#09");
+
+        /*-
+             The value 3 is cast to "long".
+             The 1 * 2 value is evaluated as "int" but promoted to "long" when added to the 3.
+             Trying to store a "long" value in an "int" variable triggers a compiler error.
+         */
+        // int note = 1 * 2 + (long) 3;// compile error: possible lossy conversion from long to int
+        int note = 1 * 2 + 3; // fix error
+        System.out.println("note = " + note);
+
         float test = 1_000f;
         System.out.println("test = " + test);
 

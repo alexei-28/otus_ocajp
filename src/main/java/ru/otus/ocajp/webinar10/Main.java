@@ -48,6 +48,15 @@ public class Main {
 
         str2 = "hello" + 'a';
         System.out.println("str2_last = " + str2); // helloa
+
+        // auto autoboxing
+        double testDouble = new  Double(1_000_000.00);
+        System.out.println("testDouble = " + testDouble);
+
+        // You can convert a primitive to wrapper class object simply by assigning it (autoboxing)
+        Double testDouble2 = new Double(11111) ;
+        double testDouble3 = testDouble2;
+        System.out.println("testDouble3 = " + testDouble3); // 11111.0
     }
 
 }

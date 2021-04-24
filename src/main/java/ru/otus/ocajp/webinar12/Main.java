@@ -18,8 +18,10 @@ public class Main {
         System.out.println(str.equals(null)); // false
 
         test();
+        test2();
     }
 
+    // Success compile because all(2) "else" statements, has(2) preceding "if" statements.
     private static void test() {
         int temp = 4;
         long humidity = -temp + temp * 3;
@@ -30,5 +32,20 @@ public class Main {
             else
                 System.out.println("just right"); // print this
         else System.out.println("Too high");
+    }
+
+    private static void test2() {
+        String[] numbers = {"1", "2", "1", "1"};
+        int counter = 0;
+        if ("1".equals(numbers[0])) {
+            counter++;
+        } else if ("1".equals(numbers[1])) { // вообще не исполняются, так как вычисление if-выражения дает true
+            counter++;
+        } else if ("1".equals(numbers[2])) {// вообще не исполняются, так как вычисление if-выражения дает true
+            counter++;
+        } else if ("1".equals(numbers[3])) {// вообще не исполняются, так как вычисление if-выражения дает true
+            counter++;
+        }
+        System.out.println("counter = " + counter); // 1
     }
 }

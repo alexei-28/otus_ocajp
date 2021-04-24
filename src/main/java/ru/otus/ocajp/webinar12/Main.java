@@ -17,5 +17,18 @@ public class Main {
         String str = "hello";
         System.out.println(str.equals(null)); // false
 
+        test();
+    }
+
+    private static void test() {
+        int temp = 4;
+        long humidity = -temp + temp * 3;
+        System.out.println("temp = " + temp + ", humidity = " + humidity); // temp = 4, humidity = 8
+        if (temp >= 4)
+            if (humidity < 6)
+                System.out.println("too low");
+            else
+                System.out.println("just right"); // print this
+        else System.out.println("Too high");
     }
 }

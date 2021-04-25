@@ -85,5 +85,25 @@ public class Main {
             // case testInteger: System.out.println("hello_integer"); // compile error: constant expression required
         }
         // print: "hello" and "hello_10"
+
+        test(10);
+    }
+
+    private static void test(final int paramFinal) {
+        int otherDay = 1;
+        final int localFinal = 2;
+        final Integer localInteger = 3;
+        switch (otherDay) {
+            default:
+            case 1: System.out.println("case 1");
+            case localFinal: System.out.println("case localFinal");
+            // классы-оболочки не считаются константами времени компиляции – даже когда их помечают модификатором final.
+            // case localInteger: System.out.println("case "); // compile error: constant expression required
+            /*-
+               While the "paramFinal" variable is marked final, it is not a compile-time
+               constant required for a switch statement, as any int value can be passed in at runtime.
+            */
+            // case: paramFinal: System.out.println("case paramFinal"); // error: illegal start of expression
+        }
     }
 }

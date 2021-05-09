@@ -43,6 +43,12 @@ public class Main {
         int item = 1;
         array[++item] = --item;
         System.out.println(array[0] + array[1] + array[2]); // 13
+
+        int assignmentX = 10;
+        assignmentX += 5; // 15
+        System.out.println("assignmentX = " + assignmentX);
+        assignmentX -= 7; // 8
+        System.out.println("assignmentX = " + assignmentX);
     }
 
 }

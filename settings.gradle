@@ -1,3 +1,4 @@
 rootProject.name = 'otus_ocajp'
 include 'examsnet'
+include 'whizlabs'
 

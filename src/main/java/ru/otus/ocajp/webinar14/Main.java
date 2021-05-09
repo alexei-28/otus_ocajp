@@ -1,5 +1,8 @@
 package ru.otus.ocajp.webinar14;
 
+import java.util.ArrayList;
+import java.util.List;
+
 // Создание и применение циклов while, do-while, for, for-each
 public class Main {
     public static void main(String... args) {
@@ -50,9 +53,25 @@ public class Main {
         }
 
         // infinity loop
+        /*-
         for (int index=0; index<10;) {
             index = index++; // The expression inside the loop increments i but then assigns i the old value = 0
             System.out.println("Infinity loop, index = " + index);
         }
+         */
+
+        int[] taxis = {10, 20};
+        for (int item : taxis) {
+            System.out.println("item = " + item);
+        }
+
+        String[] fun = {"a", "b"};
+        for (String f : fun) {
+            System.out.println("f = " + f);
+        }
+        String race = "sss";
+        loop:
+        race += "x";
+        // break loop; // compile error
     }
 }

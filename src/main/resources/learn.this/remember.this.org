@@ -1,0 +1,28 @@
+
+* Порядок выполнения операций UMARELSA
+  |-----------------------------------+-----------------------------------------------------+----------------------------+----------|
+  | Type operators                    | Symbols                                             | Example Uses               | Priority |
+  |-----------------------------------+-----------------------------------------------------+----------------------------+----------|
+  | Unary operators                   | -(negative), !(invert boolean), ++, --, +(positive) | -7 * 4, !myBoolean, +7 * 4 | Highest  |
+  | Multiplication, division, modulus | *, /, %                                             | 7 % 4, 7 * 4, 7 / 4        |          |
+  | Addition, substraction            | +, -                                                | 7 + 4, 7 - 4               |          |
+  | Relational operators              | <, >, <=, >=                                        | y > 4, y >= 4              |          |
+  | Equality operators                | ====, !=                                              | y != x, y == x             |          |
+  | Logical operators                 | &, vertical line                                    | myBool & yourBool          |          |
+  | Short-circuit                     | &&, 2 vertical lines                                | myBool && yourBool         |          |
+  | Ternary operator                  | ?:                                                  |                            |          |
+  | Assignment operators              | ==, +==, -=, &==, ^=                                    | x += 5, x = 10, x -=5      | Lowest   |
+
+  Help: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html
+  
+  
+* Logical operations (only for boolean)
+
+  XOR (x^y) - exclusive OR (исключающее ИЛИ) 
+ |-----------+----------+-----------|
+ |           | y = true | x = false |
+ |-----------+----------+-----------|
+ | x = true  | false    | true      |
+ | x = false | true     | false     |
+
+ Т.е если ОБА оператора "true" или "false", то XOR = "false", иначе "true".

@@ -1,0 +1,16 @@
+Topic: Java Data Types
+
+Test: https://www.whizlabs.com/learn/course/ocajp-8-online-course/quiz/13839
+
+Мин. кол-во % для прохождения теста: 65%
+Максимальное время ответа на один вопрос: 2 мин. 
+
+| # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
+|---+------------------+------------------+-----------------------------+-----------------+---------+--------|
+| 1 | 09.05.2021 11:50 | 09.05.2021 12:20 |                         1.5 | 8/17            |      47 | Fail   |
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+Topic: Creating and Using arrays.
+
+Test: https://www.whizlabs.com/learn/course/ocajp-8-online-course/quiz/13841
+
+Мин. кол-во % для прохождения теста: 65%
+Максимальное время ответа на один вопрос: 2 мин. 
+
+| # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
+|---+------------------+------------------+-----------------------------+-----------------+---------+--------|
+| 1 | 09.05.2021 16:00 | 09.05.2021 16:15 |                         1.5 | 3/8             |      37 | Fail   |
+
+

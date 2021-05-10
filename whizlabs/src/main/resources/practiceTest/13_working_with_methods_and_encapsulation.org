@@ -1,0 +1,12 @@
+Topic: Working with methods and encapulation.
+
+Test: https://www.whizlabs.com/learn/course/ocajp-8-online-course/quiz/13843
+
+Мин. кол-во % для прохождения теста: 65%
+Максимальное время ответа на один вопрос: 2 мин. 
+
+| # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
+|---+------------------+------------------+-----------------------------+-----------------+---------+--------|
+| 1 | 09.05.2021 21:00 | 09.05.2021 21:25 |                         1.5 | 10/17           |      58 | Fail   |
+
+

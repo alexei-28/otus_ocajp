@@ -15,7 +15,6 @@
 
   Help: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html
   
-  
 * Logical operations (only for boolean)
 
   XOR (x^y) - exclusive OR (исключающее ИЛИ) 
@@ -26,3 +25,22 @@
  | x = false | true     | false     |
 
  Т.е если ОБА оператора "true" или "false", то XOR = "false", иначе "true".
+
+* Method overloading
+  Method *overloading* means providing two separate methods in a class with the *same name but different arguments*,
+  while the method return type may or may not be different, which allows us to reuse the same method name.
+  Thrown exceptions from methods are also not considered when overloading a method.
+
+* Method overriding
+  - Оба метода должны иметь одинаковую сигнатуру
+  - Переопределяющий метод не может иметь более жесткий уровень доступа
+  - Переопределяющий метод не может объявить новое или более широкое Checked Exception
+  - Типы возвращаемого значения должны быть ковариантны.
+    Т.е типы возвращаемого значения переопределяющего или переопределенного методов должны а точности совпадать, если речь идет о примитиве.
+    Если же методы возвращают объекты, то тип возвравщаемого значения у переопределяющего метода может быть подклассом типа
+    возвращаемого значения у переопределенного метода. 
+
+    
+
+
+  

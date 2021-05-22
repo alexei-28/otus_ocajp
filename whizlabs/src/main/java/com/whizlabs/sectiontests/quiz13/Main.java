@@ -16,5 +16,18 @@ public class Main {
             System.out.println("i = " + i);
         }
          */
+
+        int x = 0;
+        while ((x = 0) > 1) { // always false
+            System.out.println("x = " + x);
+            x++;
+        }
+
+        int x2 = 0;
+        while ((x2 = 0) <= 1) {
+            System.out.println("x2 = " + x2); // print x2 endlessly
+            x2++;
+        }
+        System.out.println("finish");
     }
 }

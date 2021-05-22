@@ -1,0 +1,12 @@
+Topic: Using Loop constructs.
+
+Test: https://www.whizlabs.com/learn/course/ocajp-8-online-course/quiz/13842
+
+Мин. кол-во % для прохождения теста: 65%
+Максимальное время ответа на один вопрос: 2 мин. 
+
+| # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
+|---+------------------+------------------+-----------------------------+-----------------+---------+--------|
+| 1 | 12.05.2021 13:00 | 12.05.2021 13:30 |                         1.5 | 10/17           |      58 | Fail   |
+
+

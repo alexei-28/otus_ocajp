@@ -9,9 +9,12 @@ public class Main {
         System.out.println("13 Quiz: Using Loop Constructs.\nJDK: " + System.getProperty("java.version"));
 
         int i = 10;
-        while(true) {
+        /*-
+        while(false) {
+            // compilation error: unreachable statement
             i = 20;
             System.out.println("i = " + i);
         }
+         */
     }
 }

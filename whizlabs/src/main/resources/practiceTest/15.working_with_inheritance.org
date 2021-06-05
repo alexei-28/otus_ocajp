@@ -1,0 +1,15 @@
+#+TITLE: Wizlabs, OCAJP Training Course: Working with inheritance
+#+DATE: <2021-06-05 Sat>
+#+AUTHOR: Alexei
+#+EMAIL: a_subscriber@mail.ru
+#+OPTIONS: num:nil
+
+Test: https:/https://www.whizlabs.com/learn/course/ocajp-8-online-course/quiz/13844
+
+Мин. кол-во % для прохождения теста: 65%
+Максимальное время ответа на один вопрос: 2 мин. 
+
+| # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
+|---+------------------+------------------+-----------------------------+-----------------+---------+--------|
+| 1 | 05.06.2021 11:00 | 09.05.2021 21:25 |                             |                 |         |        |
+

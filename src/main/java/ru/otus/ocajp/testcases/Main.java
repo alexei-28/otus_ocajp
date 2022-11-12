@@ -17,10 +17,12 @@ public class Main {
         System.out.println("Hello, Test cases!\nJDK: " + System.getProperty("java.version"));
 
         // Java 10 (Local-Variable Type Inference)
+        /*-
         var myList = new ArrayList<String>();
         myList.add("first");
         myList.add("second");
         System.out.println("myList(var) = " + myList);
+        */
 
         StringBuilder s1 = new StringBuilder("s1");
         StringBuilder s2 = new StringBuilder("s2");

@@ -2,7 +2,7 @@ package ru.otus.ocajp.webinar03;
 
 /*-
    Дифференциация между ссылочными и примитивными переменными.
-   Presentation: https://cdn.otus.ru/media/private/66/76/04___OCA_Java_Data_Types-1801-6676d4.pdf?hash=t6YSW0Luznf50WCrD1aHog&expires=1605657292
+   Answer: https://docs.google.com/forms/d/e/1FAIpQLSer_GEL-haPCsokLapdFOBcXGhNa62s1DidyfPDilguO8shMA/viewscore?viewscore=AE0zAgAHE_DQYVkfA-1oa_n5K0tRh5gAL8RFXE-u4UwUEZvFQfEa6dyN60EBz3JZGj2zsus
  */
 public class Main {
 

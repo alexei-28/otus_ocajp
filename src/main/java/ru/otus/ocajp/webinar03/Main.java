@@ -2,6 +2,7 @@ package ru.otus.ocajp.webinar03;
 
 /*-
    Дифференциация между ссылочными и примитивными переменными.
+   Test: https://docs.google.com/forms/d/e/1FAIpQLSer_GEL-haPCsokLapdFOBcXGhNa62s1DidyfPDilguO8shMA/viewform
    Answer: https://docs.google.com/forms/d/e/1FAIpQLSer_GEL-haPCsokLapdFOBcXGhNa62s1DidyfPDilguO8shMA/viewscore?viewscore=AE0zAgAHE_DQYVkfA-1oa_n5K0tRh5gAL8RFXE-u4UwUEZvFQfEa6dyN60EBz3JZGj2zsus
  */
 public class Main {

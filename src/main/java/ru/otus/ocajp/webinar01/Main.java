@@ -2,8 +2,7 @@ package ru.otus.ocajp.webinar01;
 
 /*-
     Homework01's test:
-    Тест к занятию «Создание и запуск Java-приложений. Сравнение характеристик Java»
-    Q: https://docs.google.com/forms/d/e/1FAIpQLScJIB21Dp37XxsHVMuiebsrkphEHG6Kh26YIxyCu3XkyLtnGQ/viewform
+    Test: https://docs.google.com/forms/d/e/1FAIpQLScJIB21Dp37XxsHVMuiebsrkphEHG6Kh26YIxyCu3XkyLtnGQ/viewform
     A: https://docs.google.com/forms/d/e/1FAIpQLScJIB21Dp37XxsHVMuiebsrkphEHG6Kh26YIxyCu3XkyLtnGQ/viewscore?viewscore=AE0zAgBgZmQU0Aw10LV1dTrQj_edty4Gkwj97LYM-9QCxMTq0EbDDVlC62zOWclxEAJttvc
  */
 public class Main {

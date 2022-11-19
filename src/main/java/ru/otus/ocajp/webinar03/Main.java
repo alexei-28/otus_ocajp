@@ -38,7 +38,7 @@ public class Main {
         double d5 = 1234;
         System.out.println("d5 = " + d5); // 1234.0
 
-        double d6 = 0xE; // Can be assigned to many primitive types, including int and double.
+        double d6 = 0xE; // This can be assigned to many primitive types, including int and double.
         System.out.println("d6 = " + d6); // 14.0
 
         int i = Integer.MAX_VALUE; // MAX VALUE = 2147483647

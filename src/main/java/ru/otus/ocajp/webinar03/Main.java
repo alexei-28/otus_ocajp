@@ -10,6 +10,8 @@ public class Main {
     public static void main(String... args) {
         System.out.println("Webinar#03.\nJDK: " + System.getProperty("java.version"));
 
+        int i1 = 0b101; // 5
+        System.out.println("i1 = " + i1);
         //float f1 = 9.02; // compile error, because 9.02 is DOUBLE (by default)
 
         float f2 = 9.02F;
@@ -35,6 +37,9 @@ public class Main {
 
         double d5 = 1234;
         System.out.println("d5 = " + d5); // 1234.0
+
+        double d6 = 0xE; // Can be assigned to many primitive types, including int and double.
+        System.out.println("d6 = " + d6); // 14.0
 
         int i = Integer.MAX_VALUE; // MAX VALUE = 2147483647
         System.out.println("max = " + i);

@@ -10,8 +10,10 @@ package ru.otus.ocajp.webinar05;
     JVM manages the location of objects in memory that can change and is transparent to the Java application.
     JVM does require an entry point method to begin executing the application.
 
-    Test: https://docs.google.com/forms/d/e/1FAIpQLScycljT6BOJservmUA13ly2aclZLyNVob2YTMQJmo-vm2npAA/viewform
-    Answer: https://docs.google.com/forms/d/e/1FAIpQLScycljT6BOJservmUA13ly2aclZLyNVob2YTMQJmo-vm2npAA/viewscore?viewscore=AE0zAgA8KWO1Qx5KlLVCP9OnmOencnBop8YaZuDjiQrVsbZ9XiVArsOp_YL9dcqr3xYS1UY
+    Test: https://docs.google.com/forms/d/e/1FAIpQLSeXA9ZYo25Li4msiVkgwgJGDdejdCrKIsQKELN17iuMB29xBg/viewform
+    Answer: https://docs.google.com/forms/d/e/1FAIpQLSeXA9ZYo25Li4msiVkgwgJGDdejdCrKIsQKELN17iuMB29xBg/viewscore?viewscore=AE0zAgCXw6ian2VJkaziVceyb0CM5Z2AoMLpWPcdU4AOhTonuD9CGTt-ym7cpyMkT713Shc
+    Test2: https://docs.google.com/forms/d/e/1FAIpQLScogFnhliEPCJHb2yJ7UL7mOSKeo-Ti5hdjbLd072SGDKTYWQ/viewform
+    Answer: https://docs.google.com/forms/d/e/1FAIpQLScogFnhliEPCJHb2yJ7UL7mOSKeo-Ti5hdjbLd072SGDKTYWQ/viewscore?viewscore=AE0zAgCeb6td5aJm4xusLiP-Mu_B9_I1ivKxwtlD6jxmPqBNJRPsct3Fqf3qBiSvRh1HyMA
 
  */
 public class Main {

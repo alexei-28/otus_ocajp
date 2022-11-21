@@ -1,6 +1,7 @@
 ДЗ#1:Тест к занятию «Создание и запуск Java-приложений. Сравнение характеристик Java»
 
-Test url: https://forms.gle/wTzWcCQEgsasWc8v6
+Test: https://docs.google.com/forms/d/e/1FAIpQLScJIB21Dp37XxsHVMuiebsrkphEHG6Kh26YIxyCu3XkyLtnGQ/viewform
+Answer: https://docs.google.com/forms/d/e/1FAIpQLScJIB21Dp37XxsHVMuiebsrkphEHG6Kh26YIxyCu3XkyLtnGQ/viewscore?viewscore=AE0zAgBgZmQU0Aw10LV1dTrQj_edty4Gkwj97LYM-9QCxMTq0EbDDVlC62zOWclxEAJttvc
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин.

@@ -1,6 +1,7 @@
 ДЗ#3: Дифференциация между ссылочными и примитивными переменными 
 
-Test url: https://forms.gle/tHzxuf3QiUroSCUz5
+Test: https://docs.google.com/forms/d/e/1FAIpQLSer_GEL-haPCsokLapdFOBcXGhNa62s1DidyfPDilguO8shMA/viewform
+Answer: https://docs.google.com/forms/d/e/1FAIpQLSer_GEL-haPCsokLapdFOBcXGhNa62s1DidyfPDilguO8shMA/viewscore?viewscore=AE0zAgAHE_DQYVkfA-1oa_n5K0tRh5gAL8RFXE-u4UwUEZvFQfEa6dyN60EBz3JZGj2zsus
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 

@@ -1,6 +1,7 @@
 ДЗ#2:Тест к Занятию «Определение структуры Java-класса. Импорт Java-пакетов»
 
-Test url: https://forms.gle/64ChbhJoLboVKyi26
+Test: https://docs.google.com/forms/d/e/1FAIpQLScJIB21Dp37XxsHVMuiebsrkphEHG6Kh26YIxyCu3XkyLtnGQ/viewform
+Answer: https://docs.google.com/forms/d/e/1FAIpQLSeJifQTcc-KO6KSRYgcu7bJjCVN5P63OFOMPLOEHbLnEFI2lg/viewscore?viewscore=AE0zAgCx62tHHhBeDt6nqbswf2ahdoNOMUdyltN2Z5biJShv8cHX9EQUjozmxkfkmMcqsaQ
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
@@ -11,7 +12,7 @@ Test url: https://forms.gle/64ChbhJoLboVKyi26
 | 2 | 13.11.2020 12:00  | 13.11.2020 12:30 |                             | 19/27           |      70 | Pass   |
 | 3 | 07.02.2020 16:40  | 07.02.2020 17:10 |                         1.7 | 15/27           |      55 | Fail   |
 | 4 | 17.11.2022        |                  |                             |                 |      88 | Pass   |
-|   |                   |                  |                             |                 |         |        |
+
 
 
 

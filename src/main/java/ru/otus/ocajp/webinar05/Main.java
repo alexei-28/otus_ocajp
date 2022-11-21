@@ -9,6 +9,10 @@ package ru.otus.ocajp.webinar05;
     JVM not allows direct access to object in memory.
     JVM manages the location of objects in memory that can change and is transparent to the Java application.
     JVM does require an entry point method to begin executing the application.
+
+    Test: https://docs.google.com/forms/d/e/1FAIpQLScycljT6BOJservmUA13ly2aclZLyNVob2YTMQJmo-vm2npAA/viewform
+    Answer: https://docs.google.com/forms/d/e/1FAIpQLScycljT6BOJservmUA13ly2aclZLyNVob2YTMQJmo-vm2npAA/viewscore?viewscore=AE0zAgA8KWO1Qx5KlLVCP9OnmOencnBop8YaZuDjiQrVsbZ9XiVArsOp_YL9dcqr3xYS1UY
+
  */
 public class Main {
     int x = 5;

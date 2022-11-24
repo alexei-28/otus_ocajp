@@ -24,7 +24,7 @@ public class Main {
 
         Long var3 = Long.valueOf(223);
         Long var4 = Long.valueOf("223");
-        System.out.println(var3 == var4); // false, because var3 and var3 are out of range of pool of numbers.
+        System.out.println(var3 == var4); // false, because var3 and var4 refer to the different objects (out of range of pool of numbers).
 
     }
 

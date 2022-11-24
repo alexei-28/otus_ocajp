@@ -17,6 +17,8 @@ public class Main {
              - Short
              - Integer
              - Long
+
+             It's work only for method "valueOf". For "new" it's NOT work.
         */
         Long var1 = Long.valueOf(123);
         Long var2 = Long.valueOf("123");

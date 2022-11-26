@@ -53,5 +53,6 @@ public class Main {
         int o = 0x10; // HEX format of 16
         System.out.println("o = " +  o);
 
+        MyClass myClass = new MyClass();
     }
 }

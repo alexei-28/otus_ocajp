@@ -1,0 +1,16 @@
+ДЗ#: «Жизненный цикл объекта (создание, переприсваивание ссылки и сборка мусора)» 
+
+Test: https://docs.google.com/forms/d/e/1FAIpQLSfz64I0Md5MMF9t0yPv3KmqtRtZts_unTOdS8PAgzPVBgjgIQ/viewform
+Answer: https://docs.google.com/forms/d/e/1FAIpQLSfz64I0Md5MMF9t0yPv3KmqtRtZts_unTOdS8PAgzPVBgjgIQ/viewscore?viewscore=AE0zAgB6yBfTcnbcG5OfTrmu0Ra6gF9oP0G6nQ0rle4AcuTI7Slp9BPaoMWiPA8I4qcYbIw
+ 
+Мин. кол-во % для прохождения теста: 65%
+Максимальное время ответа на один вопрос: 2 мин.  
+
+| # | Start date | End date | Average time response (min) | Correct answers | Percent | Result |
+|---+------------+----------+-----------------------------+-----------------+---------+--------|
+| 1 | 26.11.2022 |          |                             |                 |         |        |
+
+
+
+
+

@@ -1,7 +1,7 @@
 package ru.otus.ocajp.webinar03;
 
 /*-
-  Local reference store in the stack.
+  Local reference store in the stack. Local variable can't be shadow (затенение).
   Instance reference  (object field) store in the heap.
  */
 public class MyClass {

@@ -1,7 +1,9 @@
 package ru.otus.ocajp.webinar03;
 
-import ru.otus.ocajp.webinar28.C;
-
+/*-
+  Local reference store in the stack.
+  Instance reference  (object field) store in the heap.
+ */
 public class MyClass {
     public static String myStaticField;
     public String myNonStaticField;

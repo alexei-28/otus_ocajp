@@ -1,4 +1,4 @@
-ДЗ#5: ДЗ: Определение областей действия переменных 
+ДЗ: Определение областей действия переменных 
 
 Test: https://docs.google.com/forms/d/e/1FAIpQLSeXA9ZYo25Li4msiVkgwgJGDdejdCrKIsQKELN17iuMB29xBg/viewform
 Answer: https://docs.google.com/forms/d/e/1FAIpQLSeXA9ZYo25Li4msiVkgwgJGDdejdCrKIsQKELN17iuMB29xBg/viewscore?viewscore=AE0zAgCXw6ian2VJkaziVceyb0CM5Z2AoMLpWPcdU4AOhTonuD9CGTt-ym7cpyMkT713Shc

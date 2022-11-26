@@ -28,6 +28,11 @@ public class Main {
         Long var4 = Long.valueOf("223");
         System.out.println(var3 == var4); // false, because var3 and var4 refer to the different objects (out of range of pool of numbers).
 
+        boolean test2 = new Boolean(false); // false
+        System.out.println("test2 = " + test2);
+
+        double test3 = new Double(9.5); // 9.5
+        System.out.println("test3 = " + test3);
     }
 
 }

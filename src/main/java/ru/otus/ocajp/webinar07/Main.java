@@ -41,6 +41,9 @@ public class Main {
         Integer value = 2;
         value++;
         System.out.println("value = " + value); // 3
+
+        Penguin.setTest(new Penguin());
+
     }
 
 }

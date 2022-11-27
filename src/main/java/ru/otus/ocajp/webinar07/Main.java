@@ -33,6 +33,10 @@ public class Main {
 
         double test3 = new Double(9.5); // 9.5
         System.out.println("test3 = " + test3);
+
+        Integer value = 2;
+        value++;
+        System.out.println("value = " + value); // 3
     }
 
 }

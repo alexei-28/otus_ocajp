@@ -34,6 +34,10 @@ public class Main {
         double test3 = new Double(9.5); // 9.5
         System.out.println("test3 = " + test3);
 
+        Double test4 = new Double("10.12");
+        double test5 = test4;
+        System.out.println("test5 = " + test5); // 10.12
+
         Integer value = 2;
         value++;
         System.out.println("value = " + value); // 3

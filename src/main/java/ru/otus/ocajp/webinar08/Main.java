@@ -50,6 +50,12 @@ public class Main {
         assignmentX -= 7; // 8
         System.out.println("assignmentX = " + assignmentX);
 
+        int ww = +-+-+-10;
+        System.out.println("ww = " + ww); // -10
+
+        int ww2 = + - + - + -10;
+        System.out.println("ww2 = " + ww2); // -10
+
         // Interesting case:
 
         // Explanation in "Применение операторов, включая переопределение приоритета. Унарные операторы "

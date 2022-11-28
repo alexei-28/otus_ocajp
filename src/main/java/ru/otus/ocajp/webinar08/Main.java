@@ -49,6 +49,22 @@ public class Main {
         System.out.println("assignmentX = " + assignmentX);
         assignmentX -= 7; // 8
         System.out.println("assignmentX = " + assignmentX);
+
+        // Interesting case:
+
+        // Explanation in "Применение операторов, включая переопределение приоритета. Унарные операторы "
+        int w = 0;
+        w = w++;
+        System.out.println("w = " + w); // 0
+
+        int w2 = 0;
+        w2++;
+        System.out.println("w2 = " + w2); // 1
+
+        int k = 0;
+        k = ++k;
+        System.out.println("k = " + k); // 1
+
     }
 
 }

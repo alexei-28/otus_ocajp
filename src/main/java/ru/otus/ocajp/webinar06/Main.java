@@ -1,5 +1,7 @@
 package ru.otus.ocajp.webinar06;
 
+import java.util.Arrays;
+
 // Жизненный цикл объекта (создание, переприсваивание ссылки и сборка мусора)
 public class Main {
     public static void main(String args[]) {
@@ -18,5 +20,13 @@ public class Main {
             alpha += current;
         }
         System.out.println(alpha);
+
+        System.out.println();
+        int arrIds2[] = new int[3];
+        System.out.println("arrIds2 = " + Arrays.toString(arrIds2));
+
+        int arrIds[], types = 10; // ids[] is array of int, types is a int
+        System.out.println("types = " + types);
+        //System.out.println("arrIds = " + arrIds); // compile error. "ids" must be initialized.
     }
 }

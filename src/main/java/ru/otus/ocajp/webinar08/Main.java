@@ -53,20 +53,32 @@ public class Main {
         int ww = +-+-+-10;
         System.out.println("ww = " + ww); // -10
 
-        int ww2 = + - + - + -10;
+        int ww2 = +-+-+-10;
         System.out.println("ww2 = " + ww2); // -10
 
         // Interesting case:
+        double xTest = 4.5;
+        xTest = xTest + ++xTest; // 10.0 - перезапись переменной
+        System.out.println("xTest = " + xTest);
 
         // Explanation in "Применение операторов, включая переопределение приоритета. Унарные операторы "
+        System.out.println();
         int w = 0;
         w = w++;
         System.out.println("w = " + w); // 0
 
+        System.out.println();
+        int d = 0;
+        int dk = d++;
+        System.out.println("d = " + d); // 1
+        System.out.println("dk = " + dk); // 0
+
+        System.out.println();
         int w2 = 0;
         w2++;
         System.out.println("w2 = " + w2); // 1
 
+        System.out.println();
         int k = 0;
         k = ++k;
         System.out.println("k = " + k); // 1

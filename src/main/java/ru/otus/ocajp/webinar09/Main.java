@@ -73,6 +73,20 @@ public class Main {
         boolean test2 = (boolean) true;
 
         testIncrement();
+
+        short s = 10;
+        //Integer iRef = s; // compile error. Autoboxing/Unboxing work only by one step.
+        Integer iRef2 = (int) s; // 10
+        System.out.println("iRef2 = " + iRef2);
+
+        float fTest = -7.0F % 0.0F; // NaN
+        System.out.println("fTest = " + fTest);
+
+        double d = 12 / 8; // 1.0
+        System.out.println("d = " + d);
+
+        double d2 = (double) 12 / 8; // 1.5 - because binary numeric promotion
+        System.out.println("d2 = " + d2);
     }
 
     /*-

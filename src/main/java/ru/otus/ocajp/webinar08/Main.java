@@ -83,6 +83,10 @@ public class Main {
         k = ++k;
         System.out.println("k = " + k); // 1
 
+        int[][] types = new int[1][];
+
+        //  Although it is legal to leave out the size for later dimensions of a multidimensional array, the first one is required
+        // int[][] types2 = new int[][]; // compile error
     }
 
 }

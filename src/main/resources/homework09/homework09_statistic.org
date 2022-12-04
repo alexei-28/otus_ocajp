@@ -1,6 +1,7 @@
 ДЗ#9: Арифметические операторы. Операторы присваивания  
 
-Test:  https://forms.gle/GzfBAj5FmsbM3Gdx5
+Test:  https://docs.google.com/forms/d/e/1FAIpQLSfw2tGT1VRB_T6VeXImuwMmXYbwJlDDX15GLvMcS0nsKptpaQ/viewform
+Answer: https://docs.google.com/forms/d/e/1FAIpQLSfw2tGT1VRB_T6VeXImuwMmXYbwJlDDX15GLvMcS0nsKptpaQ/viewscore?viewscore=AE0zAgBOjXH7_IbKAuZsLJDqL8jXr6YEEu3snkidI9yNVdfxSDQbiiAGQJ2azqssB4Zual4
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
@@ -15,6 +16,7 @@ Test:  https://forms.gle/GzfBAj5FmsbM3Gdx5
 | 6 | 09.02.2021 21:30 | 09.02.2021 21:38 |                         0.8 | 12/12           |     100 | Pass   |
 | 7 | 04.04.2021 20:40 | 04.04.2021 21:00 |                         0.5 | 6/12            |      50 | Fail   |
 | 8 | 11.04.2021 12:05 | 11.04.2021 12:20 |                         0.8 | 10/12           |      83 | Pass   |
+| 9 | 04.12.2022       |                  |                             | 9/12            |      76 | Pass   |
 
 
 

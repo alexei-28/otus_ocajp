@@ -56,7 +56,7 @@ public class Main {
         // You can convert a primitive to wrapper class object simply by assigning it (autoboxing)
         Double testDouble2 = new Double(11111) ;
         double testDouble3 = testDouble2;
-        System.out.println("testDouble3 = " + testDouble3); // 11111.0
+        System.out.println("testDouble3 = " + testDouble3); // 11111.0zzz
     }
 
 }

@@ -12,6 +12,7 @@ Answer: https://docs.google.com/forms/d/e/1FAIpQLScycljT6BOJservmUA13ly2aclZLyNV
 | 2 | 28.11.2020 14:00 | 28.11.2020 14:20 |                             | 13/14           |      92 | Pass   |
 | 3 | 07.02.2021 19:15 | 07.02.2021 19:30 |                         0.9 | 13/14           |      92 | Pass   |
 | 4 | 21.11.2022       |                  |                             |                 |      78 | Pass   |
+| 5 | 25.12.2022       |                  |                             |                 |      85 | Pass   |
 
 
 

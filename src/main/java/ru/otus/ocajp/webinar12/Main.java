@@ -22,6 +22,7 @@ public class Main {
 
         if (false);
 
+        // In if/else the break must exist only with label. Else compile error.
         label_1: if (true) break label_1; // can use break with label
         System.out.println("After label");
 

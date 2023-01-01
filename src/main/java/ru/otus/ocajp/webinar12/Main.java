@@ -25,11 +25,13 @@ public class Main {
         label_1: if (true) break label_1; // can use break with label
         System.out.println("After label");
 
-        label_2: if (true) {
-            System.out.println("inside if");
-            break label_2;
+        int j = 10;
+        int i = 0;
+        label_2: if (j>0) {
+            if (i > 0) break label_2;
+            i++;
         }
-        System.out.println("After label 2");
+        System.out.println("i = " + i);
     }
 
     // Success compile because all(2) "else" statements, has(2) preceding "if" statements.

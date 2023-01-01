@@ -19,6 +19,17 @@ public class Main {
 
         test();
         test2();
+
+        if (false);
+
+        label_1: if (true) break label_1; // can use break with label
+        System.out.println("After label");
+
+        label_2: if (true) {
+            System.out.println("inside if");
+            break label_2;
+        }
+        System.out.println("After label 2");
     }
 
     // Success compile because all(2) "else" statements, has(2) preceding "if" statements.

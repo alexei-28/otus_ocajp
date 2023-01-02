@@ -54,7 +54,7 @@ public class Main {
         int red = 2;
         final int redFinal = 3;
         switch (color) {
-            default:  {
+            default: {
                 System.out.println("color_default");
                 break;
             }
@@ -63,30 +63,36 @@ public class Main {
                 break;
             }
             //case red: { // compile error. The value of a case statement must be constant, a literal value, or final variable.
-            case 5 : {
+            case 5: {
                 System.out.println("color_red ");
             }
         }
 
         color = 21;
-        int test  = 4;
+        int test = 4;
         final Integer testInteger = 10;
         // switch не может принять boolean
         switch (color) {
             default:
-            case 1: case 2: System.out.println("hello");
-            // Each case statement must have the keyword case
-            // case 1: 2: System.out.println("hello"); // compile error,  not a statement
-            //case 2: continue; // compile error
-            case 10: System.out.println("hello_10");
-            // case test : System.out.println("test"); // compile error: constant expression required
+            case 1:
+            case 2:
+                System.out.println("hello");
+                // Each case statement must have the keyword case
+                // case 1: 2: System.out.println("hello"); // compile error,  not a statement
+                //case 2: continue; // compile error
+            case 10:
+                System.out.println("hello_10");
+                // case test : System.out.println("test"); // compile error: constant expression required
 
-            // Классы-оболочки(testInteger) не считаются константами времени компиляции, даже когда их помечают модификатором final.
-            // case testInteger: System.out.println("hello_integer"); // compile error: constant expression required
+                // Классы-оболочки(testInteger) не считаются константами времени компиляции, даже когда их помечают модификатором final.
+                // case testInteger: System.out.println("hello_integer"); // compile error: constant expression required
         }
         // print: "hello" and "hello_10"
 
         test(10);
+
+        declareAndInitializeVariable();
+        emptyBody();
     }
 
     private static void test(final int paramFinal) {
@@ -95,15 +101,46 @@ public class Main {
         final Integer localInteger = 3;
         switch (otherDay) {
             default:
-            case 1: System.out.println("case 1");
-            case localFinal: System.out.println("case localFinal");
-            // классы-оболочки не считаются константами времени компиляции – даже когда их помечают модификатором final.
-            // case localInteger: System.out.println("case "); // compile error: constant expression required
+            case 1:
+                System.out.println("case 1");
+            case localFinal:
+                System.out.println("case localFinal");
+                // классы-оболочки не считаются константами времени компиляции – даже когда их помечают модификатором final.
+                // case localInteger: System.out.println("case "); // compile error: constant expression required
             /*-
                While the "paramFinal" variable is marked final, it is not a compile-time
                constant required for a switch statement, as any int value can be passed in at runtime.
             */
-            // case: paramFinal: System.out.println("case paramFinal"); // error: illegal start of expression
+                // case: paramFinal: System.out.println("case paramFinal"); // error: illegal start of expression
         }
+    }
+
+    private static void declareAndInitializeVariable() {
+        String s = "hello3";
+        String someVar;
+        switch (s) {
+            case "hell": {
+                someVar = "s2";
+                System.out.println("hell");
+                break;
+            }
+            case "hello": {
+                String test = "test";
+                System.out.println("hello");
+                break;
+            }
+            default: {
+                someVar = "default";
+                System.out.println("someVar = " + someVar);
+            }
+        }
+        System.out.println("declareVariable");
+    }
+
+    private static void emptyBody() {
+        int i = 0;
+        switch (i) {
+        }
+        System.out.println("emptyBody");
     }
 }

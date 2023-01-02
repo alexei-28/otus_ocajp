@@ -93,6 +93,7 @@ public class Main {
 
         declareAndInitializeVariable();
         emptyBody();
+        scopeVariables();
     }
 
     private static void test(final int paramFinal) {
@@ -142,5 +143,23 @@ public class Main {
         switch (i) {
         }
         System.out.println("emptyBody");
+    }
+
+    private static void scopeVariables() {
+        int i = 2;
+        switch (i) {
+            default:
+                int x = 20; // must be here, else compile error
+                break;
+            case 1:
+                x = 21;
+                System.out.println("case 1, x = " + x);
+                break;
+            case 2:
+                x = 22;
+                System.out.println("case 2, x = " + x); // 22
+                break;
+        }
+        System.out.println("scopeVariables");
     }
 }

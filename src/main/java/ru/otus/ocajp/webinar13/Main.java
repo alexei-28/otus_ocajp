@@ -148,7 +148,7 @@ public class Main {
     private static void scopeVariables() {
         int i = 2;
         switch (i) {
-            default: {
+            default:
                 int x = 20; // must be here and without "{}", else compile error
                 break;
             case 1:

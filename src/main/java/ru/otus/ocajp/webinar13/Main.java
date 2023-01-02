@@ -156,6 +156,7 @@ public class Main {
                 System.out.println("case 1, x = " + x);
                 break;
             case 2:
+                // int x = 11; // compile error - variable x is already defined (in default).
                 x = 22;
                 System.out.println("case 2, x = " + x); // 22
                 break;

@@ -152,12 +152,12 @@ public class Main {
                 int x = 20; // must be here and without "{}", else compile error
                 break;
             case 1:
-                x = 21;
+                x = 21; // must initialize in EVERY case
                 System.out.println("case 1, x = " + x);
                 break;
             case 2:
                 // int x = 11; // compile error - variable x is already defined (in default).
-                x = 22;
+                x = 22; // must initialize in EVERY case
                 System.out.println("case 2, x = " + x); // 22
                 break;
         }

@@ -24,6 +24,12 @@ public class Main {
         System.out.println("myList(var) = " + myList);
         */
 
+        /*-
+            If a class doesn't have an equals method, Java determines whether the references point to the
+            same object—which is exactly what == does. In case you are wondering, the authors of
+            StringBuilder did not implement equals(). If you call equals() on two StringBuilder
+            instances, it will check reference equality.
+        */
         StringBuilder s1 = new StringBuilder("s1");
         StringBuilder s2 = new StringBuilder("s2");
         StringBuilder s3 = work(s1, s2);
@@ -39,7 +45,8 @@ public class Main {
         //Not change because LocalDate is immutable class AND return value is ignored.
         System.out.println(date); // 2018-04-30
 
-        label1: if (s1.toString().equals("s1")) {
+        label1:
+        if (s1.toString().equals("s1")) {
             System.out.println("label1 in if");
             break label1;
         }

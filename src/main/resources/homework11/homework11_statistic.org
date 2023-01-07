@@ -1,6 +1,8 @@
 ДЗ#11: Логические операторы. Порядок выполнения  
 
-Test:  https://forms.gle/pJW24cFWQyFoqCmKA
+
+Test:  https://docs.google.com/forms/d/e/1FAIpQLScXz9a-Jyr3dF8CiEsNBAZSi_tXHAdxw0SqseHxuApaEdcTyQ/viewform
+Answer: https://docs.google.com/forms/d/e/1FAIpQLScXz9a-Jyr3dF8CiEsNBAZSi_tXHAdxw0SqseHxuApaEdcTyQ/viewscore?viewscore=AE0zAgACQMzM4g_DNU4DXJk0g8hmcD3up5MhHXepBuuuEG5cYh321T2SoBwK-_mjKsUqjpA
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
@@ -11,6 +13,7 @@ Test:  https://forms.gle/pJW24cFWQyFoqCmKA
 | 2 | 12.02.2021 16:30 | 12.02.2021 19:10 |                         1.5 | 14/26           |      60 | Fail   |
 | 3 | 13.02.2021 17:45 | 13.02.2021 18:25 |                         1.5 | 16/26           |      62 | Fail   |
 | 4 | 11.04.2021 14:20 | 11.04.2021 15:00 |                         1.5 | 19/26           |      73 | Pass   |
+| 5 | 07.01.2023       |                  |                             |                 |      69 | Pass   |
 
 
 

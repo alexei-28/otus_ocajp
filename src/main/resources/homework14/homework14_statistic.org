@@ -1,6 +1,7 @@
 ДЗ#14: Создание и применение циклов while, do-while, for, for-each  
 
 Test: https://forms.gle/3HPH79NHTjodySJk6
+Answer: https://docs.google.com/forms/d/e/1FAIpQLSfblhDYD9ffap-TrVvY2JKVjV1a4gbnEd_MEVJ1XJZYM8mw5A/viewscore?viewscore=AE0zAgDGhbQjXjUl0m82s0SDme_E1GLnZokW6jHBqqsn2g6aTqIeT-0LdE1ZrH4t03GWHwE
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
@@ -11,4 +12,4 @@ Test: https://forms.gle/3HPH79NHTjodySJk6
 | 2 | 09.01.2021 13:00 | 09.01.2021 13:20 |                         0.8 | 19/24           |      79 | Pass   |
 | 3 | 15.02.2021 19:55 | 15.02.2021 20:30 |                         1.2 | 16/24           |      65 | Pass   |
 | 4 | 15.02.2021 22:40 | 15.02.2021 22:20 |                         1.5 | 19/24           |      79 | Pass   |
-| 5 | 24.04.2021 15:20 |                  |                             |                 |         |        |
+| 5 | 08.01.2023       |                  |                             |                 |      79 | Pass   |

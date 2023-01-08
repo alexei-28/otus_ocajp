@@ -1,6 +1,7 @@
 ДЗ#13:Применение оператора switch  
 
 Test: https://forms.gle/icyxFKPeSb4Do5s68
+Answer: https://docs.google.com/forms/d/e/1FAIpQLSfBmrimmHTrCOVwo38EjUaMd468itDkKk42tMaIqRWH7wGxeg/viewscore?viewscore=AE0zAgDYkgfTYpkmCvQ5r-kmGRpntU-paL5-1mCfaH5kK_uR2VzvxU5v2GcFDs0XpuwVs14
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
@@ -12,6 +13,7 @@ Test: https://forms.gle/icyxFKPeSb4Do5s68
 | 3 | 14.02.2021 23:20 | 14.02.2021 23:30 |                         0.8 | 13/13           |     100 | Pass   |
 | 4 | 24.04.2021 14:15 | 24.04.2021 14:30 |                         1.5 | 10/13           |      76 | Pass   |
 | 5 | 25.04.2021 12:15 | 24.04.2021 14:40 |                         1.5 | 10/13           |      76 | Pass   |
+| 6 | 26.04.2021 12:15 |                  |                             |                 |      69 | Pass   |
 
 
 

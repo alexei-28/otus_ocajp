@@ -73,5 +73,23 @@ public class Main {
         loop:
         race += "x";
         // break loop; // compile error
+        System.out.println();
+        compareForLoopWithUpdateSectionAndWithout();
     }
+
+    private static void compareForLoopWithUpdateSectionAndWithout() {
+        for (int index = 0; index < 5; index++) {
+            System.out.println("index = " + index); // 0 1 2 3 4
+        }
+
+        System.out.println();
+
+        for (int index = 0; index < 5;) {
+            // index = index++; // index is always 0 and as result infinity loop
+            index = index + 1;
+            System.out.println("index = " + index); // 1 2 3 4 5
+        }
+    }
+
+
 }

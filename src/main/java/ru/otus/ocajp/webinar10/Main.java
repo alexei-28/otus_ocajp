@@ -50,13 +50,35 @@ public class Main {
         System.out.println("str2_last = " + str2); // helloa
 
         // auto autoboxing
-        double testDouble = new  Double(1_000_000.00);
+        double testDouble = new Double(1_000_000.00);
         System.out.println("testDouble = " + testDouble);
 
         // You can convert a primitive to wrapper class object simply by assigning it (autoboxing)
-        Double testDouble2 = new Double(11111) ;
+        Double testDouble2 = new Double(11111);
         double testDouble3 = testDouble2;
         System.out.println("testDouble3 = " + testDouble3); // 11111.0zzz
+
+        bitwise_OR_Operator();
+    }
+
+    /*-
+        Bitwise OR (|) operator can use with:
+        - booleans
+        - integers
+     */
+    private static void bitwise_OR_Operator() {
+        // When two booleans are compared the result is true if either of them is true
+        boolean boolRes = false | true; // true
+        System.out.println("bitwiseLogicalOperators_boolRes = " + boolRes);
+
+        boolean boolRes2 = true | false; // true
+        System.out.println("bitwiseLogicalOperators_boolRes2 = " + boolRes2);
+
+        // The OR operator compares each binary digit of two integers
+        int value1 = 6;
+        int value2 = 5;
+        int result = value1 | value2; // 7
+        System.out.println("bitwiseLogicalOperators_result = " + result);
     }
 
 }

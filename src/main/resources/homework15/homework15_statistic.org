@@ -1,6 +1,7 @@
 ДЗ#15: Вложенные циклы, метки, команды break и continue  
 
 Test: https://forms.gle/JE1W6vXQPKtzr37WA
+Answer: https://docs.google.com/forms/d/e/1FAIpQLSeI6rctXwTZeudICtrfVCXzVyJx71kdleh9iYV2XhDbzRrctA/viewscore?viewscore=AE0zAgDd4PkzaFUU4kfCdupECsqMPWnTGqKLFh1VmV6xbohvJ7HbzhyJ2_-iDzyC_TS37j8
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
@@ -10,7 +11,7 @@ Test: https://forms.gle/JE1W6vXQPKtzr37WA
 | 1 | 09.01.2021 18:55 | 09.01.2021 19:18 |                        1.53 | 10/15           |      66 | Pass   |
 | 2 | 16.02.2021 22:15 | 16.02.2021 22:40 |                         2.3 | 11/15           |      73 | Pass   |
 | 3 | 17.02.2021 12:33 | 17.02.2021 13:03 |                         2.0 | 14/15           |      93 | Pass   |
-| 4 | 01.05.2021 19:30 |                  |                             |                 |         |        |
+| 4 | 14.01.2023       |                  |                             |                 |      66 | Pass   |
 
 
 

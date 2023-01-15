@@ -1,6 +1,7 @@
 ДЗ#16: Сравнение циклических конструкций. Команда return. Недоступный код  
 
 Test: https://forms.gle/i3SynCxb1cs5JYBC6
+Answer: https://docs.google.com/forms/d/e/1FAIpQLScEPFO1ChJwOGI9ZBXYb7wl-_wu9tfognTvzq49v8VrhsJX9g/viewscore?viewscore=AE0zAgAW9yDQaNu4srnG-zvqSRWveSnRW3XVDpVuj_8JBFkn6gjPb7CwnjkcN-8Bvh5V5W4
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
@@ -10,6 +11,7 @@ Test: https://forms.gle/i3SynCxb1cs5JYBC6
 | 1 | 10.01.2021 13:20 | 10.01.2021 14:20 |                         1.2 | 41/50           |      82 | Pass   |
 | 2 | 17.02.2021 16:00 | 17.02.2021 17:00 |                         1.2 | 43/50           |      86 | Pass   |
 | 3 | 08.05.2021 14:15 | 08.05.2021 15:00 |                         1.5 | 31/50           |         | Fail   |
+| 4 | 15.01.2023       |                  |                             |                 |         |        |
 
 
 

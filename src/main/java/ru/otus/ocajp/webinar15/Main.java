@@ -55,5 +55,22 @@ public class Main {
             }
             continue; // "continue" is unnecessary as the last statement in a loop
         } while (testIn != 0);
+
+        whileWithContinue();
     }
+
+    private static void whileWithContinue() {
+        System.out.println("whileWithContinue start");
+        int count = 0;
+        while (count < 4) {
+            count++;
+            if (count == 2) {
+                continue;
+            }
+            count++;
+        }
+        System.out.println("whileWithContinue end");
+    }
+
+
 }

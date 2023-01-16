@@ -30,5 +30,23 @@ public class Main {
 
         testStr = testStr.replace("he", new StringBuilder("PR"));
         System.out.println("after_replace_testStr = " + testStr); // PRllo
+
+        whileTrueAndEquals();
+    }
+
+    private static void whileTrueAndEquals() {
+        /*-
+        while (true) { // compile time
+        }
+        System.out.println("Compile time"); // Compile error - Unrichable code, because while(true) on compile time
+         */
+
+        /*-
+        while ("hello".equals("hello")) { // Runtime
+            System.out.println("runtime"); // Infinity loop
+        }
+         */
+
+        System.out.println("Runtime"); // No compile error, because while ("hello".equals("hello")) on runtime
     }
 }

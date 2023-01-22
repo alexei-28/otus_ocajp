@@ -16,7 +16,7 @@ public class Main {
          */
         System.out.println("Webinar#18!\nJDK: " + System.getProperty("java.version"));
         StringBuilder sb = new StringBuilder(); // default capacity = 16
-        System.out.println("capacity = " + sb.capacity());
+        System.out.println("capacity = " + sb.capacity()); // 16
 
         StringBuilder sb2 = new StringBuilder("Hello");
         System.out.println("capacity2 = " + sb2.capacity()); // 16 + 5 =  21

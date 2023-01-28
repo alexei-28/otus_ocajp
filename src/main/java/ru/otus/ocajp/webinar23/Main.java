@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 // Создание методов, которые принимают аргументы и возвращают значения. Применение модификаторов доступ
 public class Main {
-
     private static void printObjectVarargs(Object... obj) {
         System.out.println(obj[0]);
     }
@@ -35,6 +34,16 @@ public class Main {
 
         // Work only in <= Java 8
         //_();
+
+        varargsWithParams(true, new boolean[2]);
+        //varargsWithParams(true, {true, true}); // compile error - incorrect array declaration
+
+        boolean[] arr = {true, true};
+        varargsWithParams(true, arr);
+    }
+
+    private static int varargsWithParams(boolean b, boolean... b2) {
+        return b2.length;
     }
 
     private static void printIntVarargs(int... args) {
@@ -53,7 +62,7 @@ public class Main {
     private static void _() {
         System.out.println("call method with name underscore");
     }
-
      */
+
 
 }

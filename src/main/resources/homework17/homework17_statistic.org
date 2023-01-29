@@ -1,6 +1,7 @@
 ДЗ#17: Создание и манипуляция String-объектами. Проверка идентичности строковых и др.объектов с использованием оператора == и метода equals()  
 
 Test: https://forms.gle/zr95NKq4SRmZCWiy5
+Answers: https://docs.google.com/forms/d/e/1FAIpQLSc40LYWjiNBdih3uI4ION9OgwS8RGABL6Ci_UnEGTRlAzWkpg/viewscore?viewscore=AE0zAgBQSqyQzEsiTPf9Df2MCVUKBneQBELj2fhT_OCGlLX84jSSL2rmDt3bYQsaBqNQkps
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
@@ -10,6 +11,7 @@ Test: https://forms.gle/zr95NKq4SRmZCWiy5
 | 1 | 16.01.2021 11:20 | 16.01.2021 12:00 |                         1.6 | 19/25           |      76 | Pass   |
 | 2 | 18.02.2021 16:45 | 18.02.2021 17:10 |                         1.0 | 21/25           |      84 | Pass   |
 | 3 | 04.03.2021 21:10 | 04.03.2021 21:40 |                         1.2 | 20/25           |      80 | Pass   |
+| 4 | 29.01.2023       |                  |                             | 23/25           |      92 | Pass   |
 
 
 

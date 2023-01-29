@@ -47,13 +47,13 @@ public class Main {
 
         StringBuilder sb6 = new StringBuilder("Hello");
         sb6.insert(2, "privet");// "Heprivetllo"
-        sb6.insert(5,'Z'); // "HepriZvetllo"
-        sb6.replace(2,100, "WOW"); // "HeWOW" // startIndex, endIndex, str
-        sb6.delete(1,3); // "HOW" //startIndex, endIndex -> "eW"
+        sb6.insert(5, 'Z'); // "HepriZvetllo"
+        sb6.replace(2, 100, "WOW"); // "HeWOW" // startIndex, endIndex, str
+        sb6.delete(1, 3); // "HOW" //startIndex, endIndex -> "eW"
         System.out.println(sb6);
 
         StringBuilder sb7 = new StringBuilder("12345");
-        sb7.replace(2,4,"6");
+        sb7.replace(2, 4, "6");
         System.out.println(sb7); // 1265
 
         String testString = new String(new StringBuilder("hello from sb"));
@@ -71,7 +71,7 @@ public class Main {
         StringBuilder sb10 = new StringBuilder("123");
         sb10.insert(3, "456");
         // sb10.insert(4, "456"); // StringIndexOutOfBoundsException: String index out of range: 4
-        System.out.println("sb10 = " + sb10 + ", length = "  + sb10.length()); // 123456, 6
+        System.out.println("sb10 = " + sb10 + ", length = " + sb10.length()); // 123456, 6
 
         // Can pass StringBuilder as param to String
         String testString2 = new String(sb10);
@@ -93,5 +93,13 @@ public class Main {
 
         }
         //if (null instanceof null) {} //  comp error: illegal start of type
+
+        compareStringAndSB();
+    }
+
+    private static void compareStringAndSB() {
+        StringBuilder sb = new StringBuilder("hello");
+        String str = "hello";
+        //if (sb == str) // compile error
     }
 }

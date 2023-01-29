@@ -1,6 +1,7 @@
-ДЗ#18: Создание и манипуляция String-объектами. Проверка идентичности строковых и др.объектов с использованием оператора == и метода equals()  
+ДЗ#18: Манипуляция данными посредством класса StringBuilder и его методов  
 
 Test:  https://forms.gle/LcGXgEJSu9txTDFr8
+Answer: https://docs.google.com/forms/d/e/1FAIpQLSdKZFqSaaGPveUnFrmKktLW_5Vz9qv1baHyzTY_pQ2bEVXwbA/viewscore?viewscore=AE0zAgCwh4fT8S1AhQILbWiZ7KLxJ7yBRxdaDC6XrNTyGpWIfHHsQ1lH-y6cY2XsR-YPqbY
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
@@ -11,6 +12,7 @@ Test:  https://forms.gle/LcGXgEJSu9txTDFr8
 | 2 | 17.01.2021 21:35 | 17.01.2021 22:00 |                        0.86 | 24/29           |      82 | Pass   |
 | 3 | 28.02.2021 15:10 | 28.02.2021 15:55 |                         1.5 | 16/29           |      53 | Fail   |
 | 4 | 01.03.2021 12:25 | 01.03.2021 13:10 |                         1.5 | 23/29           |      79 | Pass   |
+| 5 | 29.01.2023       |                  |                             |                 |         |        |
 
 
 

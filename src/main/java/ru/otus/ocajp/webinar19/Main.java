@@ -125,5 +125,12 @@ public class Main {
         System.out.println(listening.length); // 2
         System.out.println(listening[0].length); // 1
 
+        canNotStoreItemInArray();
+    }
+
+    private static void canNotStoreItemInArray() {
+        String[] strings = {"hello"};
+        Object[] objects = strings;
+        //objects[0] = new StringBuilder(); // in runtime throw exception: java.lang.ArrayStoreException
     }
 }

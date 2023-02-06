@@ -18,7 +18,7 @@ public class Main {
         double[] arrTest1 = new double[2];
         double arrTest2[] = new double[5];
         double arrTest3[] = {};
-        int [][]arrTest5 = new int[0][4];
+        int[][] arrTest5 = new int[0][4];
 
         System.out.println("arrTest1 = " + Arrays.toString(arrTest1) // [0.0, 0.0]
                 + ", arrTest2 = " + Arrays.toString(arrTest2) // [0.0, 0.0, 0.0, 0.0, 0.0]
@@ -98,7 +98,7 @@ public class Main {
 
         // int[2][] java2 = new int[][]; // compile error, ']' expected
 
-        // int arr[] = new int[2] {1, 2}; // compile error, ';' exptected
+        // int arr[] = new int[2] {1, 2}; // compile error, ';' expected
 
         // int arr[4] = {1,2,3,4}; // compile error, ']' expected
         int[] arr = new int[4];
@@ -111,7 +111,7 @@ public class Main {
         boolean[] arrTest21 = new boolean[2];
         System.out.println("arrTest21 = " + Arrays.toString(arrTest21)); // false, false]
 
-        String bear[] = new String[] {};
+        String bear[] = new String[]{};
         System.out.println("bear = " + Arrays.toString(bear) + ", length = " + bear.length); // bear = [], length = 0
 
         // When using an array initializer, you are not allowed to specify the size separately.
@@ -121,9 +121,21 @@ public class Main {
         String[][] matrix = new String[1][2];
         //matrix[1][1] = "Second"; // ArrayIndexOfBoundException
 
-        String[][] listening = new String[][] {{"Book"}, {"Game", "22.12"}};
+        String[][] listening = new String[][]{{"Book"}, {"Game", "22.12"}};
         System.out.println(listening.length); // 2
         System.out.println(listening[0].length); // 1
+
+        int[][] arr1 = new int[2][];
+        //arr1[0][0] = 0; // throw NPE, not exist arr1[0]
+        arr1[0] = new int[3];
+        arr1[0][0] = 0;
+
+        int[][] arr_2 = new int[2][0];
+        //arr_2[0][0] = 0; // throw ArrayIndexOfBoundException
+        System.out.println("arr_2[0].length = " + arr_2[0].length); // 0
+        arr_2[0] = new int[3];
+        arr_2[0][0] = 0;
+        System.out.println("arr_2[0].length = " + arr_2[0].length); // 3
 
         canNotStoreItemInArray();
     }

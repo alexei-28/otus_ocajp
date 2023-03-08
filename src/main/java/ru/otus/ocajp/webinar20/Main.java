@@ -33,6 +33,10 @@ public class Main {
 
         // ======================================================================
 
+        // Array String-ов - это подтип Array Object-ов
+        Object[] arrObject = new String[10];
+        arrObject[0] = "hello";
+
         // ArrayList String-ов - это НЕ подтип ArrayList Object-ов
         // compile error.Incompatible types: ArrayList<String> cannot be converted to List<Object>
         // List<Object> list3 = new ArrayList<String>();

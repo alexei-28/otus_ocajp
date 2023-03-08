@@ -67,7 +67,7 @@ public class Main {
         System.out.println("array = " + Arrays.toString(array));
 
         List baloons = new ArrayList<>();
-        //List<> baloons2 = new ArrayList(); // compile error. Identifier expected, Illegal start of type
+        //List<> baloons2 = new ArrayList(); // compile error. Identifier expected, Illegal start of type (because use empty "<>")
         ArrayList<String> baloons2 = new ArrayList<>();
 
         List listWithoutType = new ArrayList<>();

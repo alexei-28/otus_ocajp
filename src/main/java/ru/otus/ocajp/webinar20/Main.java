@@ -16,9 +16,22 @@ public class Main {
 
         //List<> list2 = new ArrayList<String>(); // compile error - identifier expected
 
+
+        // ======================================================================
         ArrayList<Integer> intList = new ArrayList<>();
+        intList.add(20);
+        intList.add(40);
         //ArrayList<String> newList = new ArrayList<>(intList); // compile error - inference variable E has incompatible bounds (because use "<>" right of "=")
-        ArrayList<String> newList2 = new ArrayList(intList); // OK
+        ArrayList<String> newList2 = new ArrayList(intList); // compile OK, but on runtime will be ClassCastException on the next line
+        /*-
+        for (String item : newList2) { // on runtime ClassCastException
+            System.out.println("item = " + item);
+        }
+         */
+        // To fix this use solution when error on compile time
+        // ArrayList<String> newList3 = new ArrayList<>(intList); // Compile error - incompatible types: cannot infer type arguments for ArrayList<>
+
+        // ======================================================================
 
         // ArrayList String-ов - это НЕ подтип ArrayList Object-ов
         // compile error.Incompatible types: ArrayList<String> cannot be converted to List<Object>

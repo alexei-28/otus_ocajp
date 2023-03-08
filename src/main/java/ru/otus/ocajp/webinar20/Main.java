@@ -68,6 +68,7 @@ public class Main {
 
         List baloons = new ArrayList<>();
         //List<> baloons2 = new ArrayList(); // compile error. Identifier expected, Illegal start of type
+        ArrayList<String> baloons2 = new ArrayList<>();
 
         List listWithoutType = new ArrayList<>();
 

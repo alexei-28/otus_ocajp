@@ -16,6 +16,10 @@ public class Main {
 
         //List<> list2 = new ArrayList<String>(); // compile error - identifier expected
 
+        ArrayList<Integer> intList = new ArrayList<>();
+        //ArrayList<String> newList = new ArrayList<>(intList); // compile error - inference variable E has incompatible bounds (because use "<>" right of "=")
+        ArrayList<String> newList2 = new ArrayList(intList); // OK
+
         // ArrayList String-ов - это НЕ подтип ArrayList Object-ов
         // compile error.Incompatible types: ArrayList<String> cannot be converted to List<Object>
         // List<Object> list3 = new ArrayList<String>();

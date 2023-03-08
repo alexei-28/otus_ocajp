@@ -28,7 +28,7 @@ public class Main {
             System.out.println("item = " + item);
         }
          */
-        // To fix this use solution when error on compile time
+        // To fix this use solution when error on compile time. Use "<>" after "="
         // ArrayList<String> newList3 = new ArrayList<>(intList); // Compile error - incompatible types: cannot infer type arguments for ArrayList<>
 
         // ======================================================================

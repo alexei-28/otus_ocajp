@@ -14,7 +14,7 @@ public class Main {
         List  list = new ArrayList(); // default capacity = 10
         System.out.println("list = " + list); // []
 
-        //List<> list2 = new ArrayList<String>(); // compile error. Illegal start of type
+        //List<> list2 = new ArrayList<String>(); // compile error - identifier expected
 
         // ArrayList String-ов - это НЕ подтип ArrayList Object-ов
         // compile error.Incompatible types: ArrayList<String> cannot be converted to List<Object>

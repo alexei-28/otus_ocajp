@@ -22,6 +22,7 @@ public class Main {
         ld2 = ld.plusMonths(2).plusDays(10);
         System.out.println("ld2 = " + ld2); // 2015-06-22
 
+        // LocalTime errorlocalTime = LocalTime.of(120, 12); // RuntimeException (DateTimeException) Invalid value for HourOfDay (valid values 0 - 23): 120
         //LocalDate ld = LocalDate.of(2015, Month.APRIL, 32); // throw DateTimeException
 
         LocalTime lt = LocalTime.NOON.plusMinutes(120);

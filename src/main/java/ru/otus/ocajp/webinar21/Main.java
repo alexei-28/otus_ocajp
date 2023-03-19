@@ -23,6 +23,7 @@ public class Main {
         System.out.println("ld2 = " + ld2); // 2015-06-22
 
         // LocalTime errorlocalTime = LocalTime.of(120, 12); // RuntimeException (DateTimeException) Invalid value for HourOfDay (valid values 0 - 23): 120
+        // LocalTime errorLocalTime = LocalTime.of(999999333399, 12); // compile error: integer number too large: 999999333399
         //LocalDate ld = LocalDate.of(2015, Month.APRIL, 32); // throw DateTimeException
 
         LocalTime lt = LocalTime.NOON.plusMinutes(120);

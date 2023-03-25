@@ -16,6 +16,6 @@ public interface MyFunctionInterface {
     abstract void myNativeAbstractMethod();
 
     @Override
-    public boolean equals(Object obj); // not native abstract method
+    public boolean equals(Object obj); // not own abstract method
 
 }

@@ -31,6 +31,8 @@ public class Main {
         // Common for a Predicate to have a generic type, it is not required.
         Predicate dash =  c -> c.equals("test");
         System.out.println("dashPredicate = " + dash.test("hello")); // false
+
+        new Crow();
     }
 
     private static void check(List list, Predicate<List> predicate) {

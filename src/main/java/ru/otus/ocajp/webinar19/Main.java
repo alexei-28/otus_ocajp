@@ -15,6 +15,7 @@ public class Main {
             float[] lion = new float[]; // compile error (dimension required)
         */
         int[] arrTest = new int[]{1, 2, 3};
+        // int i[] = new int[2] {1, 2}; // compile error: ';' expected
         double[] arrTest1 = new double[2];
         double arrTest2[] = new double[5];
         double arrTest3[] = {};

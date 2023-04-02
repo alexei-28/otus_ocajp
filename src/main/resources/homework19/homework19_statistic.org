@@ -1,6 +1,7 @@
 ДЗ#19: Объявление, инстанциация и применение одномерных и многомерных массивов  
 
 Test#1:  https://forms.gle/BqzYUxDfmebZbJEt9
+Answer#1: https://docs.google.com/forms/d/e/1FAIpQLSd4UoTaQ7B4nCLLBmYegvYYIU680qoxuIRprzATtKZUbU-5Fg/viewscore?viewscore=AE0zAgDPi3344QTfGeF7Qj6KxxieF5n_AWvCxCgQM12hMtAYCuf1oT0S1ptnP1Yd1Zs8WSs
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
@@ -9,11 +10,13 @@ Test#1:  https://forms.gle/BqzYUxDfmebZbJEt9
 |---+------------------+------------------+-----------------------------+-----------------+---------+--------|
 | 1 | 20.01.2021 19:20 | 20.01.2021 19:52 |                         1.8 | 17/23           |      72 | Pass   |
 | 2 | 25.02.2021 16:40 | 25.02.2021 17:15 |                         1.6 | 19/23           |      82 | Pass   |
+| 3 | 02.04.2021       |                  |                             |                 |         |        |
 
 
 
 Тест по всему пройденному блоку Creating and Using Arrays: 
 Test#2:  https://forms.gle/TDuNduMSqShSTfsk9
+Answer#2: https://docs.google.com/forms/d/e/1FAIpQLSd1rLAtPuX9aVLJ_KxsWZsj3axxwKJ9io-DNs3jPAs0oHyTeg/viewscore?viewscore=AE0zAgDVS29Wf0UHvILFHdjp8ZN_aWkjlnK72_NqjfHmzm9HEElL6bYhUdtzPTBUkC3uRno
 
 | # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
 |---+------------------+------------------+-----------------------------+-----------------+---------+--------|

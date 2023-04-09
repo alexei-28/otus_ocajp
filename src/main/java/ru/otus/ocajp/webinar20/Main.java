@@ -94,6 +94,8 @@ public class Main {
         List someList = new ArrayList<Integer>();
 
         doIt();
+
+        testPrintList();
     }
 
     private static void doIt() {
@@ -107,6 +109,12 @@ public class Main {
         listTwo.get(1).reverse();
 
         System.out.println("listOne = " + listOne); // [Anna, adA, Bob, null]
+    }
+
+    private static void testPrintList() {
+        List<String> list = new ArrayList<>();
+        list.add("hello");
+        System.out.println(list); // [hello]
     }
 
 }

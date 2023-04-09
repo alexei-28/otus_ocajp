@@ -1,6 +1,7 @@
 ДЗ#21: Создание и манипуляция календарными датами  
 
 Test: https://forms.gle/rbixkcrYC7hY8LZP6
+Answer: https://docs.google.com/forms/d/e/1FAIpQLSce1BZGFYxd6v2vgbVGRCMw-I2DHmpf3WHCbxFD0jdUOb5BCQ/viewscore?viewscore=AE0zAgA4l8pF9DQoxMUWon9X8vWQFo9MrtJzz8cUHGhV0R8gR9vb-0XaiXFkivbekJJVIis
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
@@ -11,6 +12,7 @@ Test: https://forms.gle/rbixkcrYC7hY8LZP6
 | 2 | 27.01.2021 20:00 | 25.01.2021 22:30 |                         1.5 | 12/20           |      52 | Fail   |
 | 3 | 28.01.2021 21:10 | 25.01.2021 21:30 |                         1.0 | 14/20           |      70 | Pass   |
 | 4 | 24.02.2021 19:20 | 24.02.2021 19:35 |                         0.9 | 15/20           |      75 | Pass   |
+| 5 | 09.04.2023       |                  |                             | 11/20           |      55 | Fail   |
 
 
 

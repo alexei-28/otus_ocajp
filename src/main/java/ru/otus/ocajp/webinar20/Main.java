@@ -115,6 +115,9 @@ public class Main {
         List<String> list = new ArrayList<>();
         list.add("hello");
         System.out.println(list); // [hello]
+        for (String item : list) {
+            System.out.println("item length = " + item.length());
+        }
     }
 
 }

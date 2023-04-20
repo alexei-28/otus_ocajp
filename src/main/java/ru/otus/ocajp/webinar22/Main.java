@@ -33,6 +33,11 @@ public class Main {
         System.out.println("dashPredicate = " + dash.test("hello")); // false
 
         new Crow();
+
+        SomeClass someClass = new SomeClass();
+        someClass.someMethod();
+        boolean result = someClass.equals(new SomeClass()); // on class Object
+        System.out.println("result = " + result);
     }
 
     private static void check(List list, Predicate<List> predicate) {

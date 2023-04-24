@@ -2,6 +2,7 @@
 
 Test: Тест по всему пройденному блоку Working with Selected classes from the Java API (50 заданий): 
       https://forms.gle/a7UhKDKvqAqghYys5
+Answer: https://docs.google.com/forms/d/e/1FAIpQLSf4SVAT2CiezoHbHv2XvzwK93tGhZYVzjRzdlAxwkqvrP2HbA/viewscore?viewscore=AE0zAgBNEmZ66-Thr31i6Bi5E39YmcfgKokM9Jzt9Xnp3XMOPsCTvBZ0mHI2hcSTKEclims
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 

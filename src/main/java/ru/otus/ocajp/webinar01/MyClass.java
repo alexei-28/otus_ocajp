@@ -1,6 +1,6 @@
 package ru.otus.ocajp.webinar01;
 
-     interface MyClass {
+     public interface MyClass {
 
     }
 

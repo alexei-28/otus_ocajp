@@ -13,9 +13,7 @@ Answer: https://docs.google.com/forms/d/e/1FAIpQLSdA1sG2c7MYsEuD9mbpy6voaMfcbJuw
 | 3 | 12.02.2021 13:50 | 12.02.2021 14:30 |                         0.8 | 44/50           |      88 | Pass   |
 | 4 | 18.12.2022       |                  |                             | 38/50           |      76 | Pass   |
 | 5 | 30.12.2022       |                  |                             |                 |      84 | Pass   |
-
-
-
+| 6 | 14.10.2023       |                  |                             |                 |      80 | Pass   |
 
 
 

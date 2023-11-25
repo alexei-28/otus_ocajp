@@ -12,7 +12,4 @@ Answer: https://docs.google.com/forms/d/e/1FAIpQLSeI6rctXwTZeudICtrfVCXzVyJx71kd
 | 2 | 16.02.2021 22:15 | 16.02.2021 22:40 |                         2.3 | 11/15           |      73 | Pass   |
 | 3 | 17.02.2021 12:33 | 17.02.2021 13:03 |                         2.0 | 14/15           |      93 | Pass   |
 | 4 | 14.01.2023       |                  |                             |                 |      66 | Pass   |
-
-
-
-
+| 5 | 05.11.2023       |                  |                             |                 |      60 | Fail   |

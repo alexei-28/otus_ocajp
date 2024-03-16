@@ -14,6 +14,5 @@ Answer: https://docs.google.com/forms/d/e/1FAIpQLSce1BZGFYxd6v2vgbVGRCMw-I2DHmpf
 | 4 | 24.02.2021 19:20 | 24.02.2021 19:35 |                         0.9 | 15/20           |      75 | Pass   |
 | 5 | 09.04.2023       |                  |                             | 11/20           |      55 | Fail   |
 | 6 | 24.04.2023       |                  |                             | 14/20           |      70 | Pass   |
-
-
-
+| 7 | 09.03.2024       |                  |                             | 11/20           |      55 | Fail   |
+| 8 | 16.03.2024       |                  |                             | 15/20           |      75 | Pass   |

@@ -1,6 +1,7 @@
 ДЗ#25: Перегрузка методов. Наследование и его преимущества. Применение ключевых слов super и this для доступа к объектам и конструкторам.
 
 Test: https://forms.gle/Y9JH3ecrkZs5NLGSA
+Answer: https://docs.google.com/forms/d/e/1FAIpQLSdAM34ODp65GK0sUUod5s_9tvHzlKiL6IHLXEG_tuEiOhI8kA/viewscore?viewscore=AE0zAgCxOfuHR_mQhIzM27UjCk2YtRDCrY--meiqSKAALZ0W_nvQaz9VydNwS95gZf7uKUo
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
@@ -9,4 +10,5 @@ Test: https://forms.gle/Y9JH3ecrkZs5NLGSA
 |---+------------------+------------------+-----------------------------+-----------------+---------+--------|
 | 1 | 06.02.2021 17:10 | 06.02.2021 17:30 |                         1.0 | 13/18           |      72 | Pass   |
 | 2 | 07.02.2021 12:30 | 07.02.2021 12:50 |                         1.1 | 17/18           |      94 | Pass   |
-
+| 3 | 18.03.2024       |                  |                             | 11/18           |      61 | Fail   |
+| 4 | 24.03.2024       |                  |                             | 12/18           |      66 | Pass   |

@@ -6,9 +6,10 @@ Answer: https://docs.google.com/forms/d/e/1FAIpQLSdAM34ODp65GK0sUUod5s_9tvHzlKiL
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
 
-| # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
+| # |       Start date | End date         | Average time response (min) | Correct answers | Percent | Result |
 |---+------------------+------------------+-----------------------------+-----------------+---------+--------|
 | 1 | 06.02.2021 17:10 | 06.02.2021 17:30 |                         1.0 | 13/18           |      72 | Pass   |
 | 2 | 07.02.2021 12:30 | 07.02.2021 12:50 |                         1.1 | 17/18           |      94 | Pass   |
-| 3 | 18.03.2024       |                  |                             | 11/18           |      61 | Fail   |
-| 4 | 24.03.2024       |                  |                             | 12/18           |      66 | Pass   |
+| 3 |       18.03.2024 |                  |                             | 11/18           |      61 | Fail   |
+| 4 |       24.03.2024 |                  |                             | 11/18           |      61 | Fail   |
+| 5 |       30.03.2024 |                  |                             | 17/18           |      94 | Pass   |

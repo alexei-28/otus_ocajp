@@ -1,6 +1,7 @@
 ДЗ#28: Применение абстрактных классов и интерфейсов
 
 Test#: https://forms.gle/hujtjZbW8SxVVLfHA
+Answer: https://otus.ru/redirect/?to=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSdwa2_bMgK0vYyKprqv8KUEFTFmcUTR8eeWACYws7AIVriulA%2Fviewscore%3Fviewscore%3DAE0zAgAApRGIQ6_2CNHpfXDXa2RROl-BnEPpeLZ0GETFuGGAOSyYRZwrSBOYjEKN9UHvhLw
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
@@ -9,4 +10,6 @@ Test#: https://forms.gle/hujtjZbW8SxVVLfHA
 |---+------------------+------------------+-----------------------------+-----------------+---------+--------|
 | 1 | 28.02.2021 11:10 | 28.02.2021 12:30 |                         2.1 | 27/38           |      71 | Pass   |
 | 2 | 01.03.2021 15:00 | 01.03.2021 15:40 |                         1.2 | 37/38           |      97 | Pass   |
+| 3 | 19.03.2024       |                  |                             | 19/38           |      50 | Fail   |
+| 4 | 06.04.2024       |                  |                             | 29/38           |      76 | Pass   |
 

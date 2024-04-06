@@ -1,6 +1,7 @@
 ДЗ27: Разработка кода, демонстрирующего полиморфизм, включая переопределение.
 
 Test#1: https://forms.gle/Ye5pEo81uiT4dTHs9
+Answer: https://otus.ru/redirect/?to=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSdG5n8njHYl93y9iIpfCzfUtijMqkdA3n2DBWY1H5uaqM8QTg%2Fviewscore%3Fviewscore%3DAE0zAgDqQue093yadr3Wmc8A91wWK614JxGrPF-fE70tRFgn4oKAQLhopIJqMzvgZwv7uUg
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
@@ -11,13 +12,17 @@ Test#1: https://forms.gle/Ye5pEo81uiT4dTHs9
 | 2 | 21.02.2021 12:30 | 20.02.2021 13:25 |                         1.6 | 25/33           |      75 | Pass   |
 | 3 | 21.02.2021 16:45 | 20.02.2021 17:15 |                         0.9 | 31/33           |      93 | Pass   |
 | 4 | 22.02.2021 21:55 | 20.02.2021 22:15 |                        1.65 | 30/33           |      90 | Pass   |
-
+| 5 | 19.03.2024       |                  |                             | 10/33           |      30 | Fail   |
+| 6 | 31.03.2024       |                  |                             | 21/33           |      61 | Fail   |
+| 7 | 06.04.2024       |                  |                             | 25/33           |      75 | Pass   |
 
 
 Test#2: https://forms.gle/DPNTFBw64BSPrHj8A
+Answer: https://otus.ru/redirect/?to=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSe8wFNFTFb_AFHYdPeH1ka0mTALagwT0lLf_kVQzM7zaVXE7A%2Fviewscore%3Fviewscore%3DAE0zAgArKfeg0g-4sYL6KKq5TbJQ3ajGSfP6RDhWB4_xq9Sdyigh5hiDPniKCtwBCfDsLAk
 Весь модуль 
 
 | # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
 |---+------------------+------------------+-----------------------------+-----------------+---------+--------|
 | 1 | 20.02.2021 18:40 | 20.02.2021 20:00 |                         1.6 | 34/50           |      68 | Pass   |
 | 2 | 21.02.2021 14:30 | 21.02.2021 15:15 |                         0.9 | 44/50           |      88 | Pass   |
+

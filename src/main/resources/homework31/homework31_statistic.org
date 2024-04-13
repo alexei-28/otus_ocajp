@@ -1,6 +1,7 @@
 ДЗ#31: Создание блока try-catch и влияние исключений на штатный алгоритм работы программы
 
 Test: https://forms.gle/UjYUE2oGS2Asdjc37
+Answer: https://otus.ru/redirect/?to=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSe-eLdqtSISoXSvHnySGSfyMJyn0YrUzG-qSBZwz_b9C7ndQw%2Fviewscore%3Fviewscore%3DAE0zAgD_qtvwPCVL3eImBbeimr9AWkIAa0XxLley6a4XVvRIXArGyFxiAHx_VF2IiULqNPI
 
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
@@ -8,4 +9,5 @@ Test: https://forms.gle/UjYUE2oGS2Asdjc37
 | # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
 |---+------------------+------------------+-----------------------------+-----------------+---------+--------|
 | 1 | 14.03.2021 10:20 | 14.03.2021 10:55 |                         1.8 | 15/20           |      75 | Pass   |
-| 2 | 14.03.2021 14:20 | 14.03.2021 14:30 |                         0.5 | 19/2            |      95 | Pass   |
+| 2 | 14.03.2021 14:20 | 14.03.2021 14:30 |                         0.5 | 19/20           |      95 | Pass   |
+| 3 | 13.04.2024       |                  |                             | 17/20           |      85 | Pass   |

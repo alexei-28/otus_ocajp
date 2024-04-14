@@ -1,6 +1,8 @@
 ДЗ#33: OCA Practice Exam
 
 Test: https://forms.gle/hmrvkYYsD5mnUhB8A
+Answer: https://docs.google.com/forms/d/e/1FAIpQLSd5aqtjJD_VzyUQuccDKttmBqfrg8E-BYJD2zNIjbZa5FhXQA/viewscore?viewscore=AE0zAgDLmC-JdwaxmROW3PWKAr6uvbDSFFNd-npLV0n_Kt0LKCUepsc6yRdgcZgIZyDrfv0
+
 Max time: 2h 30 min
 
 Мин. кол-во % для прохождения теста: 65%
@@ -11,5 +13,3 @@ Max time: 2h 30 min
 | 1 | 21.03.2021 14:45 | 21.03.2021 17:15 |                         2.0 | 47/80           |      58 | Fail   |
 | 2 | 28.03.2021 10:00 | 28.03.2021 12:30 |                         1.8 | 59/80           |      73 | Pass   |
 
-
-https://docs.google.com/forms/d/e/1FAIpQLSd5aqtjJD_VzyUQuccDKttmBqfrg8E-BYJD2zNIjbZa5FhXQA/viewscore?viewscore=AE0zAgDLmC-JdwaxmROW3PWKAr6uvbDSFFNd-npLV0n_Kt0LKCUepsc6yRdgcZgIZyDrfv0

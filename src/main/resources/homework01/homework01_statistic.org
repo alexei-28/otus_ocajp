@@ -13,3 +13,4 @@ Answer: https://docs.google.com/forms/d/e/1FAIpQLScJIB21Dp37XxsHVMuiebsrkphEHG6K
 | 3 | 14.11.2022 |            |                             |                 |      83 | Pass   |
 | 4 | 25.11.2022 |            |                             |                 |      82 | Pass   |
 | 5 | 17.09.2023 |            |                             |                 |      93 | Pass   |
+| 6 | 15.04.2024 |            |                             | 27/29           |      93 | Pass   |

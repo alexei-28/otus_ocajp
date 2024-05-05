@@ -13,3 +13,5 @@ Answer: https://docs.google.com/forms/d/e/1FAIpQLSdAM34ODp65GK0sUUod5s_9tvHzlKiL
 | 3 |       18.03.2024 |                  |                             | 11/18           |      61 | Fail   |
 | 4 |       24.03.2024 |                  |                             | 11/18           |      61 | Fail   |
 | 5 |       30.03.2024 |                  |                             | 17/18           |      94 | Pass   |
+| 6 |       01.05.2024 |                  |                             | 15/18           |      83 | Pass   |
+

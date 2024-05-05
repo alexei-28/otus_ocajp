@@ -12,4 +12,6 @@ Answer: https://docs.google.com/forms/d/e/1FAIpQLSfz64I0Md5MMF9t0yPv3KmqtRtZts_u
 | 2 | 27.11.2022 |          |                             |                 |      60 | Fall   |
 | 3 | 04.12.2022 |          |                             |                 |      77 | Pass   |
 | 4 | 27.12.2022 |          |                             |                 |      77 | Pass   |
-| 5 | 01.10.2023 |          |                             | 2/9             |      15 | Faile  |
+| 5 | 01.10.2023 |          |                             | 2/9             |      15 | Fail   |
+| 6 | 18.04.2024 |          |                             | 5/9             |      55 | Fail   |
+

@@ -14,3 +14,5 @@ Answer: https://docs.google.com/forms/d/e/1FAIpQLSdKZFqSaaGPveUnFrmKktLW_5Vz9qv1
 | 4 | 01.03.2021 12:25 | 01.03.2021 13:10 |                         1.5 | 23/29           |      79 | Pass   |
 | 5 | 29.01.2023       |                  |                             | 22/29           |      75 | Pass   |
 | 6 | 03.03.2024       |                  |                             | 22/29           |      75 | Pass   |
+| 7 | 25.04.2024       |                  |                             | 24/29           |      82 | Pass   |
+

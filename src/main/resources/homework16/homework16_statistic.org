@@ -13,3 +13,4 @@ Answer: https://docs.google.com/forms/d/e/1FAIpQLScEPFO1ChJwOGI9ZBXYb7wl-_wu9tfo
 | 3 | 08.05.2021 14:15 | 08.05.2021 15:00 |                         1.5 | 31/50           |         | Fail   |
 | 4 | 15.01.2023       |                  |                             |                 |      84 | Pass   |
 | 5 | 11.02.2024       |                  |                             | 39/50           |      78 | Pass   |
+| 6 | 24.04.2024       |                  |                             | 42/50           |      84 | Pass   |

@@ -6,12 +6,13 @@ Answer#1: https://docs.google.com/forms/d/e/1FAIpQLSd4UoTaQ7B4nCLLBmYegvYYIU680q
 Мин. кол-во % для прохождения теста: 65%
 Максимальное время ответа на один вопрос: 2 мин. 
 
-| # | Start date       | End date         | Average time response (min) | Correct answers | Percent | Result |
+| # |       Start date | End date         | Average time response (min) | Correct answers | Percent | Result |
 |---+------------------+------------------+-----------------------------+-----------------+---------+--------|
 | 1 | 20.01.2021 19:20 | 20.01.2021 19:52 |                         1.8 | 17/23           |      72 | Pass   |
 | 2 | 25.02.2021 16:40 | 25.02.2021 17:15 |                         1.6 | 19/23           |      82 | Pass   |
-| 3 | 02.04.2023       |                  |                             | 17/23           |      72 | Pass   |
-| 4 | 08.03.2024       |                  |                             | 19/23           |      82 | Pass   |
+| 3 |       02.04.2023 |                  |                             | 17/23           |      72 | Pass   |
+| 4 |       08.03.2024 |                  |                             | 19/23           |      82 | Pass   |
+| 5 |       27.04.2024 |                  |                             | 19/23           |     82` | Pass   |
 
 
 
@@ -26,4 +27,4 @@ Answer#2: https://docs.google.com/forms/d/e/1FAIpQLSd1rLAtPuX9aVLJ_KxsWZsj3axxwK
 | 3 | 25.02.2021 21:25 | 25.02.2021 22:15 |                         1.0 | 41/50           |      82 | Pass   |
 | 4 | 02.04.2023       |                  |                             | 45/50           |      90 | Pass   |
 | 5 | 03.03.2024       |                  |                             | 46/50           |      92 | Pass   |
-
+| 6 | 27.04.2024       |                  |                             | 46/50           |      92 | Pass   |

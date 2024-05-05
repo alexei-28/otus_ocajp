@@ -13,4 +13,4 @@ Answers: https://docs.google.com/forms/d/e/1FAIpQLSc40LYWjiNBdih3uI4ION9OgwS8RGA
 | 3 | 04.03.2021 21:10 | 04.03.2021 21:40 |                         1.2 | 20/25           |      80 | Pass   |
 | 4 | 29.01.2023       |                  |                             | 23/25           |      92 | Pass   |
 | 5 | 18.02.2024       |                  |                             | 20/25           |      80 | Pass   |
-
+| 6 | 25.04.2024       |                  |                             | 21/25           |      84 | Pass   |

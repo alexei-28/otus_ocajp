@@ -11,6 +11,7 @@ Answer: https://docs.google.com/forms/d/e/1FAIpQLSdpvmLxb4uishrpAd1MyI_mX6qQBm71
 | 1 | 10.03.2021 10:50 | 10.03.2021 11:25 |                         2.7 | 9/13            |      69 | Pass   |
 | 2 | 11.03.2021 14:50 | 11.03.2021 15:10 |                         1.5 | 11/13           |      84 | Pass   |
 | 3 | 07.04.2024       |                  |                             | 10/13           |      75 | Pass   |
+| 4 | 11.05.2024       |                  |                             | 8/13            |      61 | Fail   |
 
 
 Test#2(весь модуль): https://forms.gle/M1aKsLE13Cd5HESW9
@@ -20,3 +21,4 @@ Andwer: https://docs.google.com/forms/d/e/1FAIpQLScFobLdK0UXdpHj0RlGNM6ZI6ynRCic
 | 1 | 10.03.2021 18:10 | 10.03.2021 19:35 |                         1.7 | 35/50           |      70 | Pass   |
 | 2 | 11.03.2021 15:45 | 11.03.2021 16:45 |                         1.2 | 44/50           |      88 | Pass   |
 | 3 | 07.04.2021       |                  |                             | 40/50           |      80 | Pass   |
+| 4 | 15.05.2024       |                  |                             | 41/50           |      82 | Pass   |

@@ -16,4 +16,4 @@ Answer: https://docs.google.com/forms/d/e/1FAIpQLSfBmrimmHTrCOVwo38EjUaMd468itDk
 | 6 | 08.01.2023       |                  |                             |                 |      69 | Pass   |
 | 7 | 04.11.2023       |                  |                             |                 |      69 | Pass   |
 | 8 | 23.04.2024       |                  |                             | 9/13            |      69 | Pass   |
-
+| 9 | 93.06.2024       |                  |                             | 11/13           |      84 | Pass   |

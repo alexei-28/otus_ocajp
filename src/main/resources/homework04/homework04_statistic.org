@@ -15,4 +15,5 @@ Answer: https://docs.google.com/forms/d/e/1FAIpQLScycljT6BOJservmUA13ly2aclZLyNV
 | 5 |       25.12.2022 |                  |                             |                 |      85 | Pass   |
 | 6 |       24.09.2023 |                  |                             |                 |      92 | Pass   |
 | 7 |       16.04.2024 |                  |                             | 11/14           |      78 | Pass   |
+| 8 |       03.06.2024 |                  |                             | 14/14           |     100 | Pass   |
 

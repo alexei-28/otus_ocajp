@@ -14,3 +14,5 @@ Answer: https://otus.ru/redirect/?to=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2
 | 4 | 30.03.2024 |            | 18/25           |      72 | Pass   |
 | 5 | 31.03.2024 |            | 20/25           |      80 | Pass   |
 | 6 | 05.05.2024 |            | 22/25           |      88 | Pass   |
+| 7 | 03.06.2024 |            | 22/25           |      88 | Pass   |
+
